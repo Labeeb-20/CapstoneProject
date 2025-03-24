@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "C:\\Users\\mohammed.labeeb\\OneDrive - Tavant Technologies\\Desktop\\LoanOrigination\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{D5E52CCC-35F8-4AD6-8C71-E4DE6B9B475E}|LoanOrigination\\LoanOrigination.csproj|c:\\users\\mohammed.labeeb\\onedrive - tavant technologies\\desktop\\loanorigination\\loanorigination\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D5E52CCC-35F8-4AD6-8C71-E4DE6B9B475E}|LoanOrigination\\LoanOrigination.csproj|solutionrelative:loanorigination\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D5E52CCC-35F8-4AD6-8C71-E4DE6B9B475E}|LoanOrigination\\LoanOrigination.csproj|c:\\users\\mohammed.labeeb\\onedrive - tavant technologies\\desktop\\loanorigination\\loanorigination\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{D5E52CCC-35F8-4AD6-8C71-E4DE6B9B475E}|LoanOrigination\\LoanOrigination.csproj|solutionrelative:loanorigination\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{D5E52CCC-35F8-4AD6-8C71-E4DE6B9B475E}|LoanOrigination\\LoanOrigination.csproj|c:\\users\\mohammed.labeeb\\onedrive - tavant technologies\\desktop\\loanorigination\\loanorigination\\controllers\\loancalculationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D5E52CCC-35F8-4AD6-8C71-E4DE6B9B475E}|LoanOrigination\\LoanOrigination.csproj|solutionrelative:loanorigination\\controllers\\loancalculationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -30,15 +38,41 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\mohammed.labeeb\\OneDrive - Tavant Technologies\\Desktop\\LoanOrigination\\LoanOrigination\\Program.cs",
+              "RelativeDocumentMoniker": "LoanOrigination\\Program.cs",
+              "ToolTip": "C:\\Users\\mohammed.labeeb\\OneDrive - Tavant Technologies\\Desktop\\LoanOrigination\\LoanOrigination\\Program.cs",
+              "RelativeToolTip": "LoanOrigination\\Program.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAEMAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-24T10:45:00.091Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\mohammed.labeeb\\OneDrive - Tavant Technologies\\Desktop\\LoanOrigination\\LoanOrigination\\appsettings.json",
+              "RelativeDocumentMoniker": "LoanOrigination\\appsettings.json",
+              "ToolTip": "C:\\Users\\mohammed.labeeb\\OneDrive - Tavant Technologies\\Desktop\\LoanOrigination\\LoanOrigination\\appsettings.json",
+              "RelativeToolTip": "LoanOrigination\\appsettings.json",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAAABUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-03-24T10:41:19.392Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "LoanCalculationController.cs",
               "DocumentMoniker": "C:\\Users\\mohammed.labeeb\\OneDrive - Tavant Technologies\\Desktop\\LoanOrigination\\LoanOrigination\\Controllers\\LoanCalculationController.cs",
               "RelativeDocumentMoniker": "LoanOrigination\\Controllers\\LoanCalculationController.cs",
@@ -51,7 +85,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "LoanHistoryController.cs",
               "DocumentMoniker": "C:\\Users\\mohammed.labeeb\\OneDrive - Tavant Technologies\\Desktop\\LoanOrigination\\LoanOrigination\\Controllers\\LoanHistoryController.cs",
               "RelativeDocumentMoniker": "LoanOrigination\\Controllers\\LoanHistoryController.cs",
@@ -64,7 +98,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "FindCustomerController.cs",
               "DocumentMoniker": "C:\\Users\\mohammed.labeeb\\OneDrive - Tavant Technologies\\Desktop\\LoanOrigination\\LoanOrigination\\Controllers\\FindCustomerController.cs",
               "RelativeDocumentMoniker": "LoanOrigination\\Controllers\\FindCustomerController.cs",
@@ -77,7 +111,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "AddCustomerController.cs",
               "DocumentMoniker": "C:\\Users\\mohammed.labeeb\\OneDrive - Tavant Technologies\\Desktop\\LoanOrigination\\LoanOrigination\\Controllers\\AddCustomerController.cs",
               "RelativeDocumentMoniker": "LoanOrigination\\Controllers\\AddCustomerController.cs",
@@ -90,7 +124,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "AccountController.cs",
               "DocumentMoniker": "C:\\Users\\mohammed.labeeb\\OneDrive - Tavant Technologies\\Desktop\\LoanOrigination\\LoanOrigination\\Controllers\\AccountController.cs",
               "RelativeDocumentMoniker": "LoanOrigination\\Controllers\\AccountController.cs",
