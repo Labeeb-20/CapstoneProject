@@ -2898,11 +2898,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\mohammed.labeeb\\OneDrive - Tavant Technologies\\Desktop\\LoanOrigination\\LoanOrigination\\LoanOrigination.csproj",
+      "projectUniqueName": "C:\\Users\\mohammed.labeeb\\CapstoneProject\\LoanOrigination\\LoanOrigination\\LoanOrigination.csproj",
       "projectName": "LoanOrigination",
-      "projectPath": "C:\\Users\\mohammed.labeeb\\OneDrive - Tavant Technologies\\Desktop\\LoanOrigination\\LoanOrigination\\LoanOrigination.csproj",
+      "projectPath": "C:\\Users\\mohammed.labeeb\\CapstoneProject\\LoanOrigination\\LoanOrigination\\LoanOrigination.csproj",
       "packagesPath": "C:\\Users\\mohammed.labeeb\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\mohammed.labeeb\\OneDrive - Tavant Technologies\\Desktop\\LoanOrigination\\LoanOrigination\\obj\\",
+      "outputPath": "C:\\Users\\mohammed.labeeb\\CapstoneProject\\LoanOrigination\\LoanOrigination\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
