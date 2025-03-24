@@ -1,8 +1,14 @@
 {
   "version": 2,
+<<<<<<< HEAD
   "dgSpecHash": "SifAtofGXQY=",
   "success": true,
   "projectFilePath": "C:\\CapstoneProject\\LoanOrigination\\LoanOrigination\\LoanOrigination.csproj",
+=======
+  "dgSpecHash": "1YQcOnrWgGs=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\mohammed.labeeb\\CapstoneProject\\LoanOrigination\\LoanOrigination\\LoanOrigination.csproj",
+>>>>>>> e53db5ca9000615784923d5c04b31ffc71b569a3
   "expectedPackageFiles": [
     "C:\\Users\\nandan.ds\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\nandan.ds\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\8.0.14\\microsoft.aspnetcore.authentication.jwtbearer.8.0.14.nupkg.sha512",
