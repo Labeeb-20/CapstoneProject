@@ -1,21 +1,43 @@
 [
   {
+<<<<<<< HEAD
+    "ContainingType": "LoanOrigination.Controllers.FindCustomerController",
+    "Method": "GetCustomer",
+    "RelativePath": "api/FindCustomer/customers/search/{firstName}/{lastName}/{dateOfBirth}",
+    "HttpMethod": "GET",
+=======
     "ContainingType": "LoanOrigination.Controllers.AccountController",
     "Method": "Login",
     "RelativePath": "api/Account/Login/{username}/{pin}",
     "HttpMethod": "POST",
+>>>>>>> 2ad2d17cfd69fe74179278d1da2b4bec26b51979
     "IsController": true,
     "Order": 0,
     "Parameters": [
       {
+<<<<<<< HEAD
+        "Name": "firstName",
+=======
         "Name": "username",
+>>>>>>> 2ad2d17cfd69fe74179278d1da2b4bec26b51979
         "Type": "System.String",
         "IsRequired": true
       },
       {
+<<<<<<< HEAD
+        "Name": "lastName",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "dateOfBirth",
+        "Type": "System.DateOnly",
+        "IsRequired": true
+=======
         "Name": "pin",
         "Type": "System.String",
         "IsRequired": true
+>>>>>>> 2ad2d17cfd69fe74179278d1da2b4bec26b51979
       }
     ],
     "ReturnTypes": []

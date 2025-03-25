@@ -5,6 +5,16 @@
     "version": "1.0"
   },
   "paths": {
+<<<<<<< HEAD
+    "/api/FindCustomer/customers/search/{firstName}/{lastName}/{dateOfBirth}": {
+      "get": {
+        "tags": [
+          "FindCustomer"
+        ],
+        "parameters": [
+          {
+            "name": "firstName",
+=======
     "/api/Account/Login/{username}/{pin}": {
       "post": {
         "tags": [
@@ -13,6 +23,7 @@
         "parameters": [
           {
             "name": "username",
+>>>>>>> 2ad2d17cfd69fe74179278d1da2b4bec26b51979
             "in": "path",
             "required": true,
             "schema": {
@@ -20,12 +31,28 @@
             }
           },
           {
+<<<<<<< HEAD
+            "name": "lastName",
+=======
             "name": "pin",
+>>>>>>> 2ad2d17cfd69fe74179278d1da2b4bec26b51979
             "in": "path",
             "required": true,
             "schema": {
               "type": "string"
             }
+<<<<<<< HEAD
+          },
+          {
+            "name": "dateOfBirth",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "format": "date"
+            }
+=======
+>>>>>>> 2ad2d17cfd69fe74179278d1da2b4bec26b51979
           }
         ],
         "responses": {

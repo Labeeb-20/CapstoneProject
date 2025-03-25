@@ -1,4 +1,8 @@
+<<<<<<< HEAD
+using CapstoneProject.Models;
+=======
 using LoanOrigination.Models;
+>>>>>>> 2ad2d17cfd69fe74179278d1da2b4bec26b51979
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
@@ -18,6 +22,13 @@ builder.Services.AddDbContext<UserDB>(options =>
 });
 builder.Services.AddTransient<IUsersData, UserData>();
 
+
+builder.Services.AddDbContext<CustomerDbContext>(options =>
+{
+    options.UseNpgsql(builder.Configuration.GetConnectionString("conNan"));
+});
+//configure dependencu injection for DataAccessLayer
+builder.Services.AddScoped<ICustomerDataAccess, CustomerDataAccess>();
 
 var secretKey = builder.Configuration["jwt:secretKey"];
 var byteKey = Encoding.UTF8.GetBytes(secretKey);
