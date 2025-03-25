@@ -11,6 +11,7 @@ build_property.RootNamespace = LoanOrigination
 build_property.RootNamespace = LoanOrigination
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 build_property.ProjectDir = C:\CapstoneProject\LoanOrigination\LoanOrigination\
 =======
 build_property.ProjectDir = C:\Users\mohammed.labeeb\CapstoneProject\LoanOrigination\LoanOrigination\
@@ -18,11 +19,15 @@ build_property.ProjectDir = C:\Users\mohammed.labeeb\CapstoneProject\LoanOrigina
 =======
 build_property.ProjectDir = C:\Users\mohammed.labeeb\CapstoneProject\LoanOrigination\LoanOrigination\
 >>>>>>> 1d879f75f8d253528d50d4fb4af60a3eb1a9c9cf
+=======
+build_property.ProjectDir = C:\CapstoneProject\LoanOrigination\LoanOrigination\
+>>>>>>> 003e1b80f4ff66ae3de8e4fd38cc1255a1773dcd
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 build_property.MSBuildProjectDirectory = C:\CapstoneProject\LoanOrigination\LoanOrigination
@@ -32,6 +37,9 @@ build_property.MSBuildProjectDirectory = C:\Users\mohammed.labeeb\CapstoneProjec
 =======
 build_property.MSBuildProjectDirectory = C:\Users\mohammed.labeeb\CapstoneProject\LoanOrigination\LoanOrigination
 >>>>>>> 1d879f75f8d253528d50d4fb4af60a3eb1a9c9cf
+=======
+build_property.MSBuildProjectDirectory = C:\CapstoneProject\LoanOrigination\LoanOrigination
+>>>>>>> 003e1b80f4ff66ae3de8e4fd38cc1255a1773dcd
 build_property._RazorSourceGeneratorDebug = 
 build_property.EffectiveAnalysisLevelStyle = 8.0
 build_property.EnableCodeStyleSeverity = 

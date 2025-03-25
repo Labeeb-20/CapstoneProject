@@ -2982,12 +2982,13 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\mohammed.labeeb\\.nuget\\packages\\": {},
+    "C:\\Users\\malave.navanishwara\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
       "projectUniqueName": "C:\\CapstoneProject\\LoanOrigination\\LoanOrigination\\LoanOrigination.csproj",
@@ -3007,12 +3008,19 @@
 >>>>>>> e53db5ca9000615784923d5c04b31ffc71b569a3
 =======
 >>>>>>> 1d879f75f8d253528d50d4fb4af60a3eb1a9c9cf
+=======
+      "projectUniqueName": "C:\\CapstoneProject\\LoanOrigination\\LoanOrigination\\LoanOrigination.csproj",
+      "projectName": "LoanOrigination",
+      "projectPath": "C:\\CapstoneProject\\LoanOrigination\\LoanOrigination\\LoanOrigination.csproj",
+      "packagesPath": "C:\\Users\\malave.navanishwara\\.nuget\\packages\\",
+      "outputPath": "C:\\CapstoneProject\\LoanOrigination\\LoanOrigination\\obj\\",
+>>>>>>> 003e1b80f4ff66ae3de8e4fd38cc1255a1773dcd
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\mohammed.labeeb\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\malave.navanishwara\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -3027,8 +3035,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\mohammed.labeeb\\CapstoneProject\\LoanOrigination\\LoanAppExceptionLib\\LoanAppExceptionLib.csproj": {
-              "projectPath": "C:\\Users\\mohammed.labeeb\\CapstoneProject\\LoanOrigination\\LoanAppExceptionLib\\LoanAppExceptionLib.csproj"
+            "C:\\CapstoneProject\\LoanOrigination\\LoanAppExceptionLib\\LoanAppExceptionLib.csproj": {
+              "projectPath": "C:\\CapstoneProject\\LoanOrigination\\LoanAppExceptionLib\\LoanAppExceptionLib.csproj"
             }
           }
         }
@@ -3102,5 +3110,13 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.102/PortableRuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problem reading the cache file C:\\CapstoneProject\\LoanOrigination\\LoanOrigination\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
+    }
+  ]
 }

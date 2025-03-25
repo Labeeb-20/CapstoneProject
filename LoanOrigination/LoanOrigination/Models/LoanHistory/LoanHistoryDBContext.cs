@@ -8,7 +8,7 @@ namespace LoanOrigination.Models.LoanHistory
 
         public DbSet<LoanHistoryModel> loanHistory { get; set; }
 
-        public DbSet<LoanApplicationModel> loanapplicationmodel { get; set; }
+        //public DbSet<LoanApplication> loanapplicationmodel { get; set; }
 
 
         public DbSet<TransactionsModel> transactions { get; set; }

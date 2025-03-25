@@ -1,3 +1,4 @@
+using LoanOrigination.CustomerDetails.Models;
 using LoanOrigination.Models.Account;
 using LoanOrigination.Models.CustomerSearch;
 using LoanOrigination.Models.LoanHistory;
@@ -25,8 +26,14 @@ builder.Services.AddDbContext<CustomerDbContext>(options =>
 {
     options.UseNpgsql(builder.Configuration.GetConnectionString("conNan"));
 });
-//configure dependencu injection for DataAccessLayer
 builder.Services.AddScoped<ICustomerDataAccess, CustomerDataAccess>();
+
+builder.Services.AddDbContext<CustomerDetailsDBContext>(options =>
+{
+    options.UseNpgsql(builder.Configuration.GetConnectionString("conNav"));
+});
+//configure dependencu injection for DataAccessLayer
+builder.Services.AddScoped<ICustomerDetailsDataAccess, CustomerDetailsDataAccess>();
 
 var secretKey = builder.Configuration["jwt:secretKey"];
 var byteKey = Encoding.UTF8.GetBytes(secretKey);
