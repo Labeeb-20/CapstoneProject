@@ -1,10 +1,10 @@
 ﻿using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
-namespace LoanOrigination.Models
+namespace LoanOrigination.Models.LoanHistory
 {
     [Table("loanhistory")]
-    
+
     public class LoanHistoryModel
     {
         [Key]

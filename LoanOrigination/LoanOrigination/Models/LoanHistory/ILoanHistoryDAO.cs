@@ -1,4 +1,4 @@
-﻿namespace LoanOrigination.Models
+﻿namespace LoanOrigination.Models.LoanHistory
 {
     public interface ILoanHistoryDAO
     {

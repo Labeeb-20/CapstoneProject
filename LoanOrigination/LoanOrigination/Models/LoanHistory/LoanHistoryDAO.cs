@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using Npgsql;
 
-namespace LoanOrigination.Models
+namespace LoanOrigination.Models.LoanHistory
 {
     public class LoanHistoryDAO : ILoanHistoryDAO
     {

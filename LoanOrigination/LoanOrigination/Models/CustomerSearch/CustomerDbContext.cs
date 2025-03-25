@@ -1,6 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
 
-namespace CapstoneProject.Models
+namespace LoanOrigination.Models.CustomerSearch
 {
     public class CustomerDbContext : DbContext
     {

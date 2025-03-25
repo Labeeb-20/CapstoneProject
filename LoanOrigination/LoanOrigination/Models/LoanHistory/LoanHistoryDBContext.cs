@@ -1,8 +1,8 @@
 ﻿using Microsoft.EntityFrameworkCore;
 
-namespace LoanOrigination.Models
+namespace LoanOrigination.Models.LoanHistory
 {
-    public class LoanHistoryDBContext:DbContext
+    public class LoanHistoryDBContext : DbContext
     {
         public LoanHistoryDBContext(DbContextOptions<LoanHistoryDBContext> options) : base(options) { }
 

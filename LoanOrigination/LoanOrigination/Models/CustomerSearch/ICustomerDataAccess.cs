@@ -1,4 +1,4 @@
-﻿namespace CapstoneProject.Models
+﻿namespace LoanOrigination.Models.CustomerSearch
 {
     public interface ICustomerDataAccess
     {

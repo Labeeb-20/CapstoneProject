@@ -1,4 +1,4 @@
-﻿using LoanOrigination.Models;
+﻿using LoanOrigination.Models.LoanHistory;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using System;

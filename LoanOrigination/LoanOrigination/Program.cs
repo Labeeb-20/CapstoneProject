@@ -1,12 +1,6 @@
-<<<<<<< HEAD
-using LoanOrigination.Models;
-=======
-<<<<<<< HEAD
-using CapstoneProject.Models;
-=======
-using LoanOrigination.Models;
->>>>>>> 2ad2d17cfd69fe74179278d1da2b4bec26b51979
->>>>>>> 7bfbe990528f6bb9276a74f0b9a10eb2d1e08b1f
+using LoanOrigination.Models.Account;
+using LoanOrigination.Models.CustomerSearch;
+using LoanOrigination.Models.LoanHistory;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;

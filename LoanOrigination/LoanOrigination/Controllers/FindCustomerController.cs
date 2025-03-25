@@ -1,4 +1,4 @@
-﻿using CapstoneProject.Models;
+﻿using LoanOrigination.Models.CustomerSearch;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 

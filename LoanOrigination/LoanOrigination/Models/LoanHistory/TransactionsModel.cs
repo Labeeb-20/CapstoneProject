@@ -1,7 +1,7 @@
 ﻿using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
-namespace LoanOrigination.Models
+namespace LoanOrigination.Models.LoanHistory
 {
     [Table("transactions")]
     public class TransactionsModel

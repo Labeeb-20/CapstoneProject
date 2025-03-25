@@ -1,6 +1,6 @@
 ﻿using System.Security.Cryptography.X509Certificates;
 
-namespace LoanOrigination.Models
+namespace LoanOrigination.Models.Account
 {
     public class UserData : IUsersData
     {

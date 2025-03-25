@@ -1,7 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Npgsql;
 
-namespace CapstoneProject.Models
+namespace LoanOrigination.Models.CustomerSearch
 {
     public class CustomerDataAccess : ICustomerDataAccess
     {
@@ -10,8 +10,8 @@ namespace CapstoneProject.Models
         {
             this.dbContext = dbContext;
         }
-       
-        public List<Customer> GetCustomer(string firstName,string lastName,DateOnly dateOfBirth)
+
+        public List<Customer> GetCustomer(string firstName, string lastName, DateOnly dateOfBirth)
         {
             try
             {
