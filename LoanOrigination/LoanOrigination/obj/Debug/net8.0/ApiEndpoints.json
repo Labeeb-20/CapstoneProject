@@ -1,0 +1,23 @@
+[
+  {
+    "ContainingType": "LoanOrigination.Controllers.AccountController",
+    "Method": "Login",
+    "RelativePath": "api/Account/Login/{username}/{pin}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "username",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "pin",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

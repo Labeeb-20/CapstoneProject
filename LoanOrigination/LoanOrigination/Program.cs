@@ -1,4 +1,6 @@
+using LoanOrigination.Models;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
 using System.Text;
 
@@ -10,6 +12,12 @@ builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+builder.Services.AddDbContext<UserDB>(options =>
+{
+    options.UseNpgsql(builder.Configuration.GetConnectionString("conLab"));
+});
+builder.Services.AddTransient<IUsersData, UserData>();
+
 
 var secretKey = builder.Configuration["jwt:secretKey"];
 var byteKey = Encoding.UTF8.GetBytes(secretKey);

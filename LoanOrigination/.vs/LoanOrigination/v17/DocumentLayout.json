@@ -3,36 +3,32 @@
   "WorkspaceRootPath": "C:\\Users\\mohammed.labeeb\\CapstoneProject\\LoanOrigination\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{D5E52CCC-35F8-4AD6-8C71-E4DE6B9B475E}|LoanOrigination\\LoanOrigination.csproj|c:\\users\\mohammed.labeeb\\capstoneproject\\loanorigination\\loanorigination\\models\\userdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D5E52CCC-35F8-4AD6-8C71-E4DE6B9B475E}|LoanOrigination\\LoanOrigination.csproj|solutionrelative:loanorigination\\models\\userdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D5E52CCC-35F8-4AD6-8C71-E4DE6B9B475E}|LoanOrigination\\LoanOrigination.csproj|c:\\users\\mohammed.labeeb\\capstoneproject\\loanorigination\\loanorigination\\models\\userdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D5E52CCC-35F8-4AD6-8C71-E4DE6B9B475E}|LoanOrigination\\LoanOrigination.csproj|solutionrelative:loanorigination\\models\\userdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{D5E52CCC-35F8-4AD6-8C71-E4DE6B9B475E}|LoanOrigination\\LoanOrigination.csproj|c:\\users\\mohammed.labeeb\\capstoneproject\\loanorigination\\loanorigination\\models\\users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D5E52CCC-35F8-4AD6-8C71-E4DE6B9B475E}|LoanOrigination\\LoanOrigination.csproj|solutionrelative:loanorigination\\models\\users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D5E52CCC-35F8-4AD6-8C71-E4DE6B9B475E}|LoanOrigination\\LoanOrigination.csproj|c:\\users\\mohammed.labeeb\\capstoneproject\\loanorigination\\loanorigination\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D5E52CCC-35F8-4AD6-8C71-E4DE6B9B475E}|LoanOrigination\\LoanOrigination.csproj|solutionrelative:loanorigination\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D5E52CCC-35F8-4AD6-8C71-E4DE6B9B475E}|LoanOrigination\\LoanOrigination.csproj|c:\\users\\mohammed.labeeb\\capstoneproject\\loanorigination\\loanorigination\\models\\iusersdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D5E52CCC-35F8-4AD6-8C71-E4DE6B9B475E}|LoanOrigination\\LoanOrigination.csproj|solutionrelative:loanorigination\\models\\iusersdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D5E52CCC-35F8-4AD6-8C71-E4DE6B9B475E}|LoanOrigination\\LoanOrigination.csproj|c:\\users\\mohammed.labeeb\\capstoneproject\\loanorigination\\loanorigination\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D5E52CCC-35F8-4AD6-8C71-E4DE6B9B475E}|LoanOrigination\\LoanOrigination.csproj|solutionrelative:loanorigination\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D5E52CCC-35F8-4AD6-8C71-E4DE6B9B475E}|LoanOrigination\\LoanOrigination.csproj|c:\\users\\mohammed.labeeb\\capstoneproject\\loanorigination\\loanorigination\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{D5E52CCC-35F8-4AD6-8C71-E4DE6B9B475E}|LoanOrigination\\LoanOrigination.csproj|solutionrelative:loanorigination\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D5E52CCC-35F8-4AD6-8C71-E4DE6B9B475E}|LoanOrigination\\LoanOrigination.csproj|c:\\users\\mohammed.labeeb\\capstoneproject\\loanorigination\\loanorigination\\controllers\\loancalculationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D5E52CCC-35F8-4AD6-8C71-E4DE6B9B475E}|LoanOrigination\\LoanOrigination.csproj|solutionrelative:loanorigination\\controllers\\loancalculationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D5E52CCC-35F8-4AD6-8C71-E4DE6B9B475E}|LoanOrigination\\LoanOrigination.csproj|c:\\users\\mohammed.labeeb\\capstoneproject\\loanorigination\\loanorigination\\controllers\\loanhistorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D5E52CCC-35F8-4AD6-8C71-E4DE6B9B475E}|LoanOrigination\\LoanOrigination.csproj|solutionrelative:loanorigination\\controllers\\loanhistorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D5E52CCC-35F8-4AD6-8C71-E4DE6B9B475E}|LoanOrigination\\LoanOrigination.csproj|c:\\users\\mohammed.labeeb\\capstoneproject\\loanorigination\\loanorigination\\controllers\\findcustomercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D5E52CCC-35F8-4AD6-8C71-E4DE6B9B475E}|LoanOrigination\\LoanOrigination.csproj|solutionrelative:loanorigination\\controllers\\findcustomercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D5E52CCC-35F8-4AD6-8C71-E4DE6B9B475E}|LoanOrigination\\LoanOrigination.csproj|c:\\users\\mohammed.labeeb\\capstoneproject\\loanorigination\\loanorigination\\controllers\\addcustomercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D5E52CCC-35F8-4AD6-8C71-E4DE6B9B475E}|LoanOrigination\\LoanOrigination.csproj|solutionrelative:loanorigination\\controllers\\addcustomercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D5E52CCC-35F8-4AD6-8C71-E4DE6B9B475E}|LoanOrigination\\LoanOrigination.csproj|c:\\users\\mohammed.labeeb\\capstoneproject\\loanorigination\\loanorigination\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D5E52CCC-35F8-4AD6-8C71-E4DE6B9B475E}|LoanOrigination\\LoanOrigination.csproj|solutionrelative:loanorigination\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D5E52CCC-35F8-4AD6-8C71-E4DE6B9B475E}|LoanOrigination\\LoanOrigination.csproj|c:\\users\\mohammed.labeeb\\capstoneproject\\loanorigination\\loanorigination\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D5E52CCC-35F8-4AD6-8C71-E4DE6B9B475E}|LoanOrigination\\LoanOrigination.csproj|solutionrelative:loanorigination\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,7 +38,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -50,101 +46,92 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\mohammed.labeeb\\CapstoneProject\\LoanOrigination\\LoanOrigination\\appsettings.json",
+              "RelativeDocumentMoniker": "LoanOrigination\\appsettings.json",
+              "ToolTip": "C:\\Users\\mohammed.labeeb\\CapstoneProject\\LoanOrigination\\LoanOrigination\\appsettings.json",
+              "RelativeToolTip": "LoanOrigination\\appsettings.json",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABAAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-03-24T16:38:30.214Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UserData.cs",
+              "DocumentMoniker": "C:\\Users\\mohammed.labeeb\\CapstoneProject\\LoanOrigination\\LoanOrigination\\Models\\UserData.cs",
+              "RelativeDocumentMoniker": "LoanOrigination\\Models\\UserData.cs",
+              "ToolTip": "C:\\Users\\mohammed.labeeb\\CapstoneProject\\LoanOrigination\\LoanOrigination\\Models\\UserData.cs",
+              "RelativeToolTip": "LoanOrigination\\Models\\UserData.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-24T16:04:11.126Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "UserDB.cs",
+              "DocumentMoniker": "C:\\Users\\mohammed.labeeb\\CapstoneProject\\LoanOrigination\\LoanOrigination\\Models\\UserDB.cs",
+              "RelativeDocumentMoniker": "LoanOrigination\\Models\\UserDB.cs",
+              "ToolTip": "C:\\Users\\mohammed.labeeb\\CapstoneProject\\LoanOrigination\\LoanOrigination\\Models\\UserDB.cs",
+              "RelativeToolTip": "LoanOrigination\\Models\\UserDB.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-24T16:01:55.023Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IUsersData.cs",
+              "DocumentMoniker": "C:\\Users\\mohammed.labeeb\\CapstoneProject\\LoanOrigination\\LoanOrigination\\Models\\IUsersData.cs",
+              "RelativeDocumentMoniker": "LoanOrigination\\Models\\IUsersData.cs",
+              "ToolTip": "C:\\Users\\mohammed.labeeb\\CapstoneProject\\LoanOrigination\\LoanOrigination\\Models\\IUsersData.cs",
+              "RelativeToolTip": "LoanOrigination\\Models\\IUsersData.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-24T16:00:00.916Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "Users.cs",
               "DocumentMoniker": "C:\\Users\\mohammed.labeeb\\CapstoneProject\\LoanOrigination\\LoanOrigination\\Models\\Users.cs",
               "RelativeDocumentMoniker": "LoanOrigination\\Models\\Users.cs",
               "ToolTip": "C:\\Users\\mohammed.labeeb\\CapstoneProject\\LoanOrigination\\LoanOrigination\\Models\\Users.cs",
               "RelativeToolTip": "LoanOrigination\\Models\\Users.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAQwBkAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-24T11:49:25.514Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\mohammed.labeeb\\CapstoneProject\\LoanOrigination\\LoanOrigination\\Program.cs",
-              "RelativeDocumentMoniker": "LoanOrigination\\Program.cs",
-              "ToolTip": "C:\\Users\\mohammed.labeeb\\CapstoneProject\\LoanOrigination\\LoanOrigination\\Program.cs",
-              "RelativeToolTip": "LoanOrigination\\Program.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAAEMAAAAXAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-24T10:45:00.091Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\mohammed.labeeb\\CapstoneProject\\LoanOrigination\\LoanOrigination\\appsettings.json",
-              "RelativeDocumentMoniker": "LoanOrigination\\appsettings.json",
-              "ToolTip": "C:\\Users\\mohammed.labeeb\\CapstoneProject\\LoanOrigination\\LoanOrigination\\appsettings.json",
-              "RelativeToolTip": "LoanOrigination\\appsettings.json",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAAABUAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-03-24T10:41:19.392Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "LoanCalculationController.cs",
-              "DocumentMoniker": "C:\\Users\\mohammed.labeeb\\CapstoneProject\\LoanOrigination\\LoanOrigination\\Controllers\\LoanCalculationController.cs",
-              "RelativeDocumentMoniker": "LoanOrigination\\Controllers\\LoanCalculationController.cs",
-              "ToolTip": "C:\\Users\\mohammed.labeeb\\CapstoneProject\\LoanOrigination\\LoanOrigination\\Controllers\\LoanCalculationController.cs",
-              "RelativeToolTip": "LoanOrigination\\Controllers\\LoanCalculationController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-24T09:38:46.331Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "LoanHistoryController.cs",
-              "DocumentMoniker": "C:\\Users\\mohammed.labeeb\\CapstoneProject\\LoanOrigination\\LoanOrigination\\Controllers\\LoanHistoryController.cs",
-              "RelativeDocumentMoniker": "LoanOrigination\\Controllers\\LoanHistoryController.cs",
-              "ToolTip": "C:\\Users\\mohammed.labeeb\\CapstoneProject\\LoanOrigination\\LoanOrigination\\Controllers\\LoanHistoryController.cs",
-              "RelativeToolTip": "LoanOrigination\\Controllers\\LoanHistoryController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-24T09:38:23.099Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "FindCustomerController.cs",
-              "DocumentMoniker": "C:\\Users\\mohammed.labeeb\\CapstoneProject\\LoanOrigination\\LoanOrigination\\Controllers\\FindCustomerController.cs",
-              "RelativeDocumentMoniker": "LoanOrigination\\Controllers\\FindCustomerController.cs",
-              "ToolTip": "C:\\Users\\mohammed.labeeb\\CapstoneProject\\LoanOrigination\\LoanOrigination\\Controllers\\FindCustomerController.cs",
-              "RelativeToolTip": "LoanOrigination\\Controllers\\FindCustomerController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-24T09:37:57.856Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "AddCustomerController.cs",
-              "DocumentMoniker": "C:\\Users\\mohammed.labeeb\\CapstoneProject\\LoanOrigination\\LoanOrigination\\Controllers\\AddCustomerController.cs",
-              "RelativeDocumentMoniker": "LoanOrigination\\Controllers\\AddCustomerController.cs",
-              "ToolTip": "C:\\Users\\mohammed.labeeb\\CapstoneProject\\LoanOrigination\\LoanOrigination\\Controllers\\AddCustomerController.cs",
-              "RelativeToolTip": "LoanOrigination\\Controllers\\AddCustomerController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-24T09:37:27.344Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
               "Title": "AccountController.cs",
               "DocumentMoniker": "C:\\Users\\mohammed.labeeb\\CapstoneProject\\LoanOrigination\\LoanOrigination\\Controllers\\AccountController.cs",
               "RelativeDocumentMoniker": "LoanOrigination\\Controllers\\AccountController.cs",
               "ToolTip": "C:\\Users\\mohammed.labeeb\\CapstoneProject\\LoanOrigination\\LoanOrigination\\Controllers\\AccountController.cs",
               "RelativeToolTip": "LoanOrigination\\Controllers\\AccountController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAADQAAAAAAAAAAAAYwD8AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-24T09:33:57.127Z"
+              "WhenOpened": "2025-03-24T09:33:57.127Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\mohammed.labeeb\\CapstoneProject\\LoanOrigination\\LoanOrigination\\Program.cs",
+              "RelativeDocumentMoniker": "LoanOrigination\\Program.cs",
+              "ToolTip": "C:\\Users\\mohammed.labeeb\\CapstoneProject\\LoanOrigination\\LoanOrigination\\Program.cs",
+              "RelativeToolTip": "LoanOrigination\\Program.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABIAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-24T10:45:00.091Z"
             }
           ]
         }
