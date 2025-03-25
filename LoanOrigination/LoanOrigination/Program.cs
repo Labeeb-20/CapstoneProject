@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 using CapstoneProject.Models;
+=======
+using LoanOrigination.Models;
+>>>>>>> 2ad2d17cfd69fe74179278d1da2b4bec26b51979
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
@@ -12,6 +16,12 @@ builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+builder.Services.AddDbContext<UserDB>(options =>
+{
+    options.UseNpgsql(builder.Configuration.GetConnectionString("conLab"));
+});
+builder.Services.AddTransient<IUsersData, UserData>();
+
 
 builder.Services.AddDbContext<CustomerDbContext>(options =>
 {
