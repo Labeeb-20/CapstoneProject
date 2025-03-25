@@ -1,0 +1,56 @@
+{
+  "openapi": "3.0.1",
+  "info": {
+    "title": "LoanOrigination",
+    "version": "1.0"
+  },
+  "paths": {
+    "/api/LoanHistory/GetLoanHistoryByCustomerId/{customerId}": {
+      "get": {
+        "tags": [
+          "LoanHistory"
+        ],
+        "parameters": [
+          {
+            "name": "customerId",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/LoanHistory/GetTransactionsByLoanId/{loanId}": {
+      "get": {
+        "tags": [
+          "LoanHistory"
+        ],
+        "parameters": [
+          {
+            "name": "loanId",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    }
+  },
+  "components": { }
+}

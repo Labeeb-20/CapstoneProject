@@ -1,4 +1,6 @@
+using LoanOrigination.Models;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
 using System.Text;
 
@@ -13,6 +15,13 @@ builder.Services.AddSwaggerGen();
 
 var secretKey = builder.Configuration["jwt:secretKey"];
 var byteKey = Encoding.UTF8.GetBytes(secretKey);
+
+builder.Services.AddDbContext<LoanHistoryDBContext>(options =>
+{
+    options.UseNpgsql(builder.Configuration.GetConnectionString("conSat"));
+});
+
+builder.Services.AddScoped<ILoanHistoryDAO, LoanHistoryDAO>();
 
 builder.Services.AddAuthentication(options =>
 {

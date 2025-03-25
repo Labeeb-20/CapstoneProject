@@ -1,0 +1,34 @@
+[
+  {
+    "ContainingType": "LoanOrigination.Controllers.LoanHistoryController",
+    "Method": "GetLoanHistoryByCustomerId",
+    "RelativePath": "api/LoanHistory/GetLoanHistoryByCustomerId/{customerId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "customerId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LoanOrigination.Controllers.LoanHistoryController",
+    "Method": "GetTransactionsByCustomerId",
+    "RelativePath": "api/LoanHistory/GetTransactionsByLoanId/{loanId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "loanId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
