@@ -1,8 +1,15 @@
 {
   "version": 2,
-  "dgSpecHash": "2X1A6DmHMkI=",
+  "dgSpecHash": "z0pfb2Y4GgI=",
   "success": true,
-  "projectFilePath": "C:\\Users\\pesala.gouthami\\CapstoneProject\\LoanOrigination\\LoanAppExceptionLib\\LoanAppExceptionLib.csproj",
+  "projectFilePath": "C:\\Users\\satyanarayana.k\\CapstoneProject\\LoanOrigination\\LoanAppExceptionLib\\LoanAppExceptionLib.csproj",
   "expectedPackageFiles": [],
-  "logs": []
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problem reading the cache file C:\\Users\\satyanarayana.k\\CapstoneProject\\LoanOrigination\\LoanAppExceptionLib\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
+    }
+  ]
 }
