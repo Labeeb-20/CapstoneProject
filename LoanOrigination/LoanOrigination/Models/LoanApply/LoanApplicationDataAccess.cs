@@ -13,8 +13,8 @@ namespace LoanOrigination.Models
 
         public decimal? GetNetIncomeByCustomerId(int customerId)
         {
-            var employment = _dbContext.EmploymentDetails.FirstOrDefault(e => e.Id == customerId);
-            return employment?.NetIncome;
+            var employment = _dbContext.Customers.FirstOrDefault(e => e.Id == customerId);
+            return employment?.Net_Income;
         }
 
         public void AddLoanApplication(LoanApplication loanApplication)
