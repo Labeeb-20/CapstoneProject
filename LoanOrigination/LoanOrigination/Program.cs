@@ -1,6 +1,9 @@
+
+using LoanOrigination.CustomerDetails.Models;
+using LoanOrigination.Models;
 using LoanOrigination.Models.Account;
 using LoanOrigination.Models.CustomerSearch;
-using LoanOrigination.Models.LoanHistory;
+//using LoanOrigination.Models.LoanHistory;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
@@ -14,6 +17,14 @@ builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+
+builder.Services.AddDbContext<LoanApplicationDbContext>(options =>
+{
+    options.UseNpgsql(builder.Configuration.GetConnectionString("conGou"));
+});
+builder.Services.AddTransient<ILoanApplicationDataAccess, LoanApplicationDataAccess>();
+
+
 builder.Services.AddDbContext<UserDB>(options =>
 {
     options.UseNpgsql(builder.Configuration.GetConnectionString("conLab"));
@@ -25,18 +36,24 @@ builder.Services.AddDbContext<CustomerDbContext>(options =>
 {
     options.UseNpgsql(builder.Configuration.GetConnectionString("conNan"));
 });
-//configure dependencu injection for DataAccessLayer
 builder.Services.AddScoped<ICustomerDataAccess, CustomerDataAccess>();
+
+builder.Services.AddDbContext<CustomerDetailsDBContext>(options =>
+{
+    options.UseNpgsql(builder.Configuration.GetConnectionString("conNav"));
+});
+//configure dependencu injection for DataAccessLayer
+builder.Services.AddScoped<ICustomerDetailsDataAccess, CustomerDetailsDataAccess>();
 
 var secretKey = builder.Configuration["jwt:secretKey"];
 var byteKey = Encoding.UTF8.GetBytes(secretKey);
 
-builder.Services.AddDbContext<LoanHistoryDBContext>(options =>
-{
-    options.UseNpgsql(builder.Configuration.GetConnectionString("conSat"));
-});
+//builder.Services.AddDbContext<LoanHistoryDBContext>(options =>
+//{
+//    options.UseNpgsql(builder.Configuration.GetConnectionString("conSat"));
+//});
 
-builder.Services.AddScoped<ILoanHistoryDAO, LoanHistoryDAO>();
+//builder.Services.AddScoped<ILoanHistoryDAO, LoanHistoryDAO>();
 
 builder.Services.AddAuthentication(options =>
 {

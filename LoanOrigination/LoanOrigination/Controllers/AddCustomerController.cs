@@ -1,4 +1,7 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿
+using LoanOrigination.CustomerDetails.Models;
+using LoanOrigination.Models.CustomerSearch;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
 namespace LoanOrigination.Controllers
@@ -7,5 +10,26 @@ namespace LoanOrigination.Controllers
     [ApiController]
     public class AddCustomerController : ControllerBase
     {
+        private readonly ICustomerDetailsDataAccess dal;
+        public AddCustomerController(ICustomerDetailsDataAccess dal) 
+        {
+            this.dal = dal;
+        }
+        [HttpPost]
+        [Route("AddCustomerDetails")]
+        public IActionResult AddCustomerDetails([FromBody] CustomerDetail customerDetails)
+        {
+            try
+            {
+                dal.AddCustomerDetails(customerDetails);
+                return Ok("CustomerDetails added Successfully");
+
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(ex.Message);
+            }
+
+        }
     }
 }
