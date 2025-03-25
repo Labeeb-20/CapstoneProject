@@ -1,4 +1,6 @@
+using CapstoneProject.Models;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
 using System.Text;
 
@@ -10,6 +12,13 @@ builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+
+builder.Services.AddDbContext<CustomerDbContext>(options =>
+{
+    options.UseNpgsql(builder.Configuration.GetConnectionString("conNan"));
+});
+//configure dependencu injection for DataAccessLayer
+builder.Services.AddScoped<ICustomerDataAccess, CustomerDataAccess>();
 
 var secretKey = builder.Configuration["jwt:secretKey"];
 var byteKey = Encoding.UTF8.GetBytes(secretKey);

@@ -1,0 +1,28 @@
+[
+  {
+    "ContainingType": "LoanOrigination.Controllers.FindCustomerController",
+    "Method": "GetCustomer",
+    "RelativePath": "api/FindCustomer/customers/search/{firstName}/{lastName}/{dateOfBirth}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "firstName",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "lastName",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "dateOfBirth",
+        "Type": "System.DateOnly",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
