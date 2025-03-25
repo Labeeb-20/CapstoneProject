@@ -8,6 +8,6 @@ namespace LoanOrigination.CustomerDetails.Models
         {
             
         }
-        public DbSet<CustomerDetails>CustomerDetails {  get; set; }
+        public DbSet<CustomerDetail>CustomerDetails {  get; set; }
     }
 }

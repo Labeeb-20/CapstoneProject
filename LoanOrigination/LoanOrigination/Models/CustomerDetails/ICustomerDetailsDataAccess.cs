@@ -2,6 +2,6 @@
 {
     public interface ICustomerDetailsDataAccess
     {
-        void AddCustomerDetails(CustomerDetails customerDetails);
+        void AddCustomerDetails(CustomerDetail customerDetails);
     }
 }

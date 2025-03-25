@@ -1,5 +1,4 @@
-﻿using CapstoneProject.Models;
-using LoanAppExceptionLib;
+﻿using LoanAppExceptionLib;
 using Npgsql;
 
 namespace LoanOrigination.CustomerDetails.Models
@@ -11,7 +10,7 @@ namespace LoanOrigination.CustomerDetails.Models
         {
             this._dbContext = _dbContext;
         }
-        public void AddCustomerDetails(CustomerDetails customerDetails)
+        public void AddCustomerDetails(CustomerDetail customerDetails)
         {
             try
             {

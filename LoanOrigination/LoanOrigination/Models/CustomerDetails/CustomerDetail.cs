@@ -4,7 +4,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 namespace LoanOrigination.CustomerDetails.Models
 {
     [Table("customer")]
-    public class CustomerDetails
+    public class CustomerDetail
     {
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         [Column("id")]
