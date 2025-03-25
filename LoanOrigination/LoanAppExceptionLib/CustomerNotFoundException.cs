@@ -2,6 +2,10 @@
 {
     public class CustomerNotFoundException : Exception
     {
+        public CustomerNotFoundException(string msg) : base(msg)
+        {
+            
+        }
 
     }
 }

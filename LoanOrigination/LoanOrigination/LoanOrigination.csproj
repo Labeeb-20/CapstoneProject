@@ -7,6 +7,17 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="Models\LoanHistory\**" />
+    <Content Remove="Models\LoanHistory\**" />
+    <EmbeddedResource Remove="Models\LoanHistory\**" />
+    <None Remove="Models\LoanHistory\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Remove="Controllers\LoanHistoryController.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="BCrypt.Net-Next" Version="4.0.3" />
     <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="8.0.14" />
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="8.0.14" />
@@ -24,7 +35,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Models\CustomerDetails\" />
     <Folder Include="Models\LoanApply\" />
   </ItemGroup>
 

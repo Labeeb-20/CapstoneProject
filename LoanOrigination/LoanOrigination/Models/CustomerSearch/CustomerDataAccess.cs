@@ -1,4 +1,5 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using LoanAppExceptionLib;
+using Microsoft.EntityFrameworkCore;
 using Npgsql;
 
 namespace LoanOrigination.Models.CustomerSearch
@@ -22,7 +23,7 @@ namespace LoanOrigination.Models.CustomerSearch
                 }
                 else
                 {
-                    throw new Exception("Record not found");
+                    throw new CustomerNotFoundException("Customer not found");
                 }
             }
             catch (NpgsqlException ex)
