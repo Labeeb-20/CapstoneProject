@@ -8,11 +8,7 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = LoanAppExceptionLib
-<<<<<<< HEAD
 build_property.ProjectDir = C:\Users\mohammed.labeeb\CapstoneProject\LoanOrigination\LoanAppExceptionLib\
-=======
-build_property.ProjectDir = C:\Users\satyanarayana.k\CapstoneProject\LoanOrigination\LoanAppExceptionLib\
->>>>>>> 7baa8334550342e4a231201a4175e2ddb795fab9
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.EffectiveAnalysisLevelStyle = 8.0
