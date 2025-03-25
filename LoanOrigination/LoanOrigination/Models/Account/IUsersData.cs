@@ -1,4 +1,4 @@
-﻿namespace LoanOrigination.Models
+﻿namespace LoanOrigination.Models.Account
 {
     public interface IUsersData
     {

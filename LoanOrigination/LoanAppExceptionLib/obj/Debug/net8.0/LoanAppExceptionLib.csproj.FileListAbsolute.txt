@@ -10,3 +10,15 @@ C:\Users\mohammed.labeeb\CapstoneProject\LoanOrigination\LoanAppExceptionLib\obj
 C:\Users\mohammed.labeeb\CapstoneProject\LoanOrigination\LoanAppExceptionLib\obj\Debug\net8.0\refint\LoanAppExceptionLib.dll
 C:\Users\mohammed.labeeb\CapstoneProject\LoanOrigination\LoanAppExceptionLib\obj\Debug\net8.0\LoanAppExceptionLib.pdb
 C:\Users\mohammed.labeeb\CapstoneProject\LoanOrigination\LoanAppExceptionLib\obj\Debug\net8.0\ref\LoanAppExceptionLib.dll
+C:\CapstoneProject\LoanOrigination\LoanAppExceptionLib\bin\Debug\net8.0\LoanAppExceptionLib.deps.json
+C:\CapstoneProject\LoanOrigination\LoanAppExceptionLib\bin\Debug\net8.0\LoanAppExceptionLib.dll
+C:\CapstoneProject\LoanOrigination\LoanAppExceptionLib\bin\Debug\net8.0\LoanAppExceptionLib.pdb
+C:\CapstoneProject\LoanOrigination\LoanAppExceptionLib\obj\Debug\net8.0\LoanAppExceptionLib.GeneratedMSBuildEditorConfig.editorconfig
+C:\CapstoneProject\LoanOrigination\LoanAppExceptionLib\obj\Debug\net8.0\LoanAppExceptionLib.AssemblyInfoInputs.cache
+C:\CapstoneProject\LoanOrigination\LoanAppExceptionLib\obj\Debug\net8.0\LoanAppExceptionLib.AssemblyInfo.cs
+C:\CapstoneProject\LoanOrigination\LoanAppExceptionLib\obj\Debug\net8.0\LoanAppExceptionLib.csproj.CoreCompileInputs.cache
+C:\CapstoneProject\LoanOrigination\LoanAppExceptionLib\obj\Debug\net8.0\LoanAppExceptionLib.sourcelink.json
+C:\CapstoneProject\LoanOrigination\LoanAppExceptionLib\obj\Debug\net8.0\LoanAppExceptionLib.dll
+C:\CapstoneProject\LoanOrigination\LoanAppExceptionLib\obj\Debug\net8.0\refint\LoanAppExceptionLib.dll
+C:\CapstoneProject\LoanOrigination\LoanAppExceptionLib\obj\Debug\net8.0\LoanAppExceptionLib.pdb
+C:\CapstoneProject\LoanOrigination\LoanAppExceptionLib\obj\Debug\net8.0\ref\LoanAppExceptionLib.dll

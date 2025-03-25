@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("LoanAppExceptionLib")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+fe71187f690e35c048f6d4c670737c0f36bba434")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+380d96df9e4adb0783e69ddb72551ba524481530")]
 [assembly: System.Reflection.AssemblyProductAttribute("LoanAppExceptionLib")]
 [assembly: System.Reflection.AssemblyTitleAttribute("LoanAppExceptionLib")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

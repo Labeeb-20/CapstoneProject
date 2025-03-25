@@ -23,4 +23,9 @@
     <ProjectReference Include="..\LoanAppExceptionLib\LoanAppExceptionLib.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Models\CustomerDetails\" />
+    <Folder Include="Models\LoanApply\" />
+  </ItemGroup>
+
 </Project>

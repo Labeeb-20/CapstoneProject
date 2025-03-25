@@ -1,4 +1,6 @@
-using LoanOrigination.Models;
+using LoanOrigination.Models.Account;
+using LoanOrigination.Models.CustomerSearch;
+using LoanOrigination.Models.LoanHistory;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
@@ -19,8 +21,22 @@ builder.Services.AddDbContext<UserDB>(options =>
 builder.Services.AddTransient<IUsersData, UserData>();
 
 
+builder.Services.AddDbContext<CustomerDbContext>(options =>
+{
+    options.UseNpgsql(builder.Configuration.GetConnectionString("conNan"));
+});
+//configure dependencu injection for DataAccessLayer
+builder.Services.AddScoped<ICustomerDataAccess, CustomerDataAccess>();
+
 var secretKey = builder.Configuration["jwt:secretKey"];
 var byteKey = Encoding.UTF8.GetBytes(secretKey);
+
+builder.Services.AddDbContext<LoanHistoryDBContext>(options =>
+{
+    options.UseNpgsql(builder.Configuration.GetConnectionString("conSat"));
+});
+
+builder.Services.AddScoped<ILoanHistoryDAO, LoanHistoryDAO>();
 
 builder.Services.AddAuthentication(options =>
 {
