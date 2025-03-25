@@ -249,6 +249,8 @@
               "ToolTip": "C:\\Users\\satyanarayana.k\\CapstoneProject\\LoanOrigination\\LoanOrigination\\Program.cs",
               "RelativeToolTip": "LoanOrigination\\Program.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAABUAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-24T10:45:00.091Z",
 =======
           "SelectedChildIndex": 0,
           "Children": [
@@ -258,12 +260,12 @@
               "Title": "CustomerNotFoundException.cs",
               "DocumentMoniker": "C:\\CapstoneProject\\LoanOrigination\\LoanAppExceptionLib\\CustomerNotFoundException.cs",
               "RelativeDocumentMoniker": "LoanAppExceptionLib\\CustomerNotFoundException.cs",
-              "ToolTip": "C:\\CapstoneProject\\LoanOrigination\\LoanAppExceptionLib\\CustomerNotFoundException.cs*",
-              "RelativeToolTip": "LoanAppExceptionLib\\CustomerNotFoundException.cs*",
+              "ToolTip": "C:\\CapstoneProject\\LoanOrigination\\LoanAppExceptionLib\\CustomerNotFoundException.cs",
+              "RelativeToolTip": "LoanAppExceptionLib\\CustomerNotFoundException.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAA2AAAAAAAAAA==",
->>>>>>> 7bfbe990528f6bb9276a74f0b9a10eb2d1e08b1f
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-25T09:08:52.775Z",
+>>>>>>> 7bfbe990528f6bb9276a74f0b9a10eb2d1e08b1f
               "EditorCaption": ""
             },
             {
@@ -291,7 +293,6 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-24T09:38:46.331Z",
-              "EditorCaption": ""
 =======
               "DocumentIndex": 2,
               "Title": "ICustomerDataAccess.cs",
@@ -302,21 +303,10 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-25T06:39:23.768Z"
->>>>>>> 7bfbe990528f6bb9276a74f0b9a10eb2d1e08b1f
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-<<<<<<< HEAD
-              "Title": "LoanHistoryController.cs",
-              "DocumentMoniker": "C:\\Users\\satyanarayana.k\\CapstoneProject\\LoanOrigination\\LoanOrigination\\Controllers\\LoanHistoryController.cs",
-              "RelativeDocumentMoniker": "LoanOrigination\\Controllers\\LoanHistoryController.cs",
-              "ToolTip": "C:\\Users\\satyanarayana.k\\CapstoneProject\\LoanOrigination\\LoanOrigination\\Controllers\\LoanHistoryController.cs",
-              "RelativeToolTip": "LoanOrigination\\Controllers\\LoanHistoryController.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAQwCEAAAAuAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-24T09:38:23.099Z",
-=======
               "Title": "CustomerDataAccess.cs",
               "DocumentMoniker": "C:\\CapstoneProject\\LoanOrigination\\LoanOrigination\\Models\\CustomerDataAccess.cs",
               "RelativeDocumentMoniker": "LoanOrigination\\Models\\CustomerDataAccess.cs",
@@ -330,13 +320,28 @@
             },
             {
               "$type": "Document",
+<<<<<<< HEAD
+              "DocumentIndex": 1,
+              "Title": "LoanHistoryController.cs",
+              "DocumentMoniker": "C:\\Users\\satyanarayana.k\\CapstoneProject\\LoanOrigination\\LoanOrigination\\Controllers\\LoanHistoryController.cs",
+              "RelativeDocumentMoniker": "LoanOrigination\\Controllers\\LoanHistoryController.cs",
+              "ToolTip": "C:\\Users\\satyanarayana.k\\CapstoneProject\\LoanOrigination\\LoanOrigination\\Controllers\\LoanHistoryController.cs",
+              "RelativeToolTip": "LoanOrigination\\Controllers\\LoanHistoryController.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAQwCEAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-24T09:38:23.099Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 11,
               "Title": "FindCustomerController.cs",
-<<<<<<< HEAD
               "DocumentMoniker": "C:\\Users\\satyanarayana.k\\CapstoneProject\\LoanOrigination\\LoanOrigination\\Controllers\\FindCustomerController.cs",
               "RelativeDocumentMoniker": "LoanOrigination\\Controllers\\FindCustomerController.cs",
               "ToolTip": "C:\\Users\\satyanarayana.k\\CapstoneProject\\LoanOrigination\\LoanOrigination\\Controllers\\FindCustomerController.cs",
 =======
+              "DocumentIndex": 4,
+              "Title": "FindCustomerController.cs",
               "DocumentMoniker": "C:\\CapstoneProject\\LoanOrigination\\LoanOrigination\\Controllers\\FindCustomerController.cs",
               "RelativeDocumentMoniker": "LoanOrigination\\Controllers\\FindCustomerController.cs",
               "ToolTip": "C:\\CapstoneProject\\LoanOrigination\\LoanOrigination\\Controllers\\FindCustomerController.cs",
