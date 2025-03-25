@@ -1,7 +1,6 @@
 {
   "format": 1,
   "restore": {
-<<<<<<< HEAD
     "C:\\Users\\pesala.gouthami\\CapstoneProject\\LoanOrigination\\LoanOrigination\\LoanOrigination.csproj": {}
   },
   "projects": {
@@ -13,29 +12,12 @@
         "projectPath": "C:\\Users\\pesala.gouthami\\CapstoneProject\\LoanOrigination\\LoanAppExceptionLib\\LoanAppExceptionLib.csproj",
         "packagesPath": "C:\\Users\\pesala.gouthami\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\pesala.gouthami\\CapstoneProject\\LoanOrigination\\LoanAppExceptionLib\\obj\\",
-=======
-    "C:\\CapstoneProject\\LoanOrigination\\LoanOrigination\\LoanOrigination.csproj": {}
-  },
-  "projects": {
-    "C:\\CapstoneProject\\LoanOrigination\\LoanAppExceptionLib\\LoanAppExceptionLib.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "C:\\CapstoneProject\\LoanOrigination\\LoanAppExceptionLib\\LoanAppExceptionLib.csproj",
-        "projectName": "LoanAppExceptionLib",
-        "projectPath": "C:\\CapstoneProject\\LoanOrigination\\LoanAppExceptionLib\\LoanAppExceptionLib.csproj",
-        "packagesPath": "C:\\Users\\nandan.ds\\.nuget\\packages\\",
-        "outputPath": "C:\\CapstoneProject\\LoanOrigination\\LoanAppExceptionLib\\obj\\",
->>>>>>> 7fc1865ce81489043950c6e70b3b91d237c917de
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-<<<<<<< HEAD
           "C:\\Users\\pesala.gouthami\\AppData\\Roaming\\NuGet\\NuGet.Config",
-=======
-          "C:\\Users\\nandan.ds\\AppData\\Roaming\\NuGet\\NuGet.Config",
->>>>>>> 7fc1865ce81489043950c6e70b3b91d237c917de
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -87,7 +69,6 @@
         }
       }
     },
-<<<<<<< HEAD
     "C:\\Users\\pesala.gouthami\\CapstoneProject\\LoanOrigination\\LoanOrigination\\LoanOrigination.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -96,26 +77,12 @@
         "projectPath": "C:\\Users\\pesala.gouthami\\CapstoneProject\\LoanOrigination\\LoanOrigination\\LoanOrigination.csproj",
         "packagesPath": "C:\\Users\\pesala.gouthami\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\pesala.gouthami\\CapstoneProject\\LoanOrigination\\LoanOrigination\\obj\\",
-=======
-    "C:\\CapstoneProject\\LoanOrigination\\LoanOrigination\\LoanOrigination.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "C:\\CapstoneProject\\LoanOrigination\\LoanOrigination\\LoanOrigination.csproj",
-        "projectName": "LoanOrigination",
-        "projectPath": "C:\\CapstoneProject\\LoanOrigination\\LoanOrigination\\LoanOrigination.csproj",
-        "packagesPath": "C:\\Users\\nandan.ds\\.nuget\\packages\\",
-        "outputPath": "C:\\CapstoneProject\\LoanOrigination\\LoanOrigination\\obj\\",
->>>>>>> 7fc1865ce81489043950c6e70b3b91d237c917de
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-<<<<<<< HEAD
           "C:\\Users\\pesala.gouthami\\AppData\\Roaming\\NuGet\\NuGet.Config",
-=======
-          "C:\\Users\\nandan.ds\\AppData\\Roaming\\NuGet\\NuGet.Config",
->>>>>>> 7fc1865ce81489043950c6e70b3b91d237c917de
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -130,13 +97,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-<<<<<<< HEAD
               "C:\\Users\\pesala.gouthami\\CapstoneProject\\LoanOrigination\\LoanAppExceptionLib\\LoanAppExceptionLib.csproj": {
                 "projectPath": "C:\\Users\\pesala.gouthami\\CapstoneProject\\LoanOrigination\\LoanAppExceptionLib\\LoanAppExceptionLib.csproj"
-=======
-              "C:\\CapstoneProject\\LoanOrigination\\LoanAppExceptionLib\\LoanAppExceptionLib.csproj": {
-                "projectPath": "C:\\CapstoneProject\\LoanOrigination\\LoanAppExceptionLib\\LoanAppExceptionLib.csproj"
->>>>>>> 7fc1865ce81489043950c6e70b3b91d237c917de
               }
             }
           }

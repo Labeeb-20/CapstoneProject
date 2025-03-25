@@ -1,14 +1,8 @@
 {
   "version": 2,
-<<<<<<< HEAD
   "dgSpecHash": "2X1A6DmHMkI=",
   "success": true,
   "projectFilePath": "C:\\Users\\pesala.gouthami\\CapstoneProject\\LoanOrigination\\LoanAppExceptionLib\\LoanAppExceptionLib.csproj",
-=======
-  "dgSpecHash": "FU5wk+VhOBs=",
-  "success": true,
-  "projectFilePath": "C:\\CapstoneProject\\LoanOrigination\\LoanAppExceptionLib\\LoanAppExceptionLib.csproj",
->>>>>>> 7fc1865ce81489043950c6e70b3b91d237c917de
   "expectedPackageFiles": [],
   "logs": []
 }
