@@ -5,6 +5,7 @@
     "version": "1.0"
   },
   "paths": {
+<<<<<<< HEAD
     "/api/LoanHistory/GetLoanHistoryByCustomerId/{customerId}": {
       "get": {
         "tags": [
@@ -42,6 +43,56 @@
               "type": "integer",
               "format": "int32"
             }
+=======
+<<<<<<< HEAD
+    "/api/FindCustomer/customers/search/{firstName}/{lastName}/{dateOfBirth}": {
+      "get": {
+        "tags": [
+          "FindCustomer"
+        ],
+        "parameters": [
+          {
+            "name": "firstName",
+=======
+    "/api/Account/Login/{username}/{pin}": {
+      "post": {
+        "tags": [
+          "Account"
+        ],
+        "parameters": [
+          {
+            "name": "username",
+>>>>>>> 2ad2d17cfd69fe74179278d1da2b4bec26b51979
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+<<<<<<< HEAD
+            "name": "lastName",
+=======
+            "name": "pin",
+>>>>>>> 2ad2d17cfd69fe74179278d1da2b4bec26b51979
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+<<<<<<< HEAD
+          },
+          {
+            "name": "dateOfBirth",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "format": "date"
+            }
+=======
+>>>>>>> 2ad2d17cfd69fe74179278d1da2b4bec26b51979
+>>>>>>> 7bfbe990528f6bb9276a74f0b9a10eb2d1e08b1f
           }
         ],
         "responses": {

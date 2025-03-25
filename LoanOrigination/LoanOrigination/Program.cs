@@ -1,4 +1,12 @@
+<<<<<<< HEAD
 using LoanOrigination.Models;
+=======
+<<<<<<< HEAD
+using CapstoneProject.Models;
+=======
+using LoanOrigination.Models;
+>>>>>>> 2ad2d17cfd69fe74179278d1da2b4bec26b51979
+>>>>>>> 7bfbe990528f6bb9276a74f0b9a10eb2d1e08b1f
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
@@ -12,6 +20,19 @@ builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+builder.Services.AddDbContext<UserDB>(options =>
+{
+    options.UseNpgsql(builder.Configuration.GetConnectionString("conLab"));
+});
+builder.Services.AddTransient<IUsersData, UserData>();
+
+
+builder.Services.AddDbContext<CustomerDbContext>(options =>
+{
+    options.UseNpgsql(builder.Configuration.GetConnectionString("conNan"));
+});
+//configure dependencu injection for DataAccessLayer
+builder.Services.AddScoped<ICustomerDataAccess, CustomerDataAccess>();
 
 var secretKey = builder.Configuration["jwt:secretKey"];
 var byteKey = Encoding.UTF8.GetBytes(secretKey);
