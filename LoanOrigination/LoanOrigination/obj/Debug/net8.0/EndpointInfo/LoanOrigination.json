@@ -6,6 +6,45 @@
   },
   "paths": {
 <<<<<<< HEAD
+    "/api/LoanHistory/GetLoanHistoryByCustomerId/{customerId}": {
+      "get": {
+        "tags": [
+          "LoanHistory"
+        ],
+        "parameters": [
+          {
+            "name": "customerId",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/LoanHistory/GetTransactionsByLoanId/{loanId}": {
+      "get": {
+        "tags": [
+          "LoanHistory"
+        ],
+        "parameters": [
+          {
+            "name": "loanId",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+=======
+<<<<<<< HEAD
     "/api/FindCustomer/customers/search/{firstName}/{lastName}/{dateOfBirth}": {
       "get": {
         "tags": [
@@ -53,6 +92,7 @@
             }
 =======
 >>>>>>> 2ad2d17cfd69fe74179278d1da2b4bec26b51979
+>>>>>>> 7bfbe990528f6bb9276a74f0b9a10eb2d1e08b1f
           }
         ],
         "responses": {

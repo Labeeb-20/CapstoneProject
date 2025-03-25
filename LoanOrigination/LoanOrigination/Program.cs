@@ -1,8 +1,12 @@
 <<<<<<< HEAD
+using LoanOrigination.Models;
+=======
+<<<<<<< HEAD
 using CapstoneProject.Models;
 =======
 using LoanOrigination.Models;
 >>>>>>> 2ad2d17cfd69fe74179278d1da2b4bec26b51979
+>>>>>>> 7bfbe990528f6bb9276a74f0b9a10eb2d1e08b1f
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
@@ -32,6 +36,13 @@ builder.Services.AddScoped<ICustomerDataAccess, CustomerDataAccess>();
 
 var secretKey = builder.Configuration["jwt:secretKey"];
 var byteKey = Encoding.UTF8.GetBytes(secretKey);
+
+builder.Services.AddDbContext<LoanHistoryDBContext>(options =>
+{
+    options.UseNpgsql(builder.Configuration.GetConnectionString("conSat"));
+});
+
+builder.Services.AddScoped<ILoanHistoryDAO, LoanHistoryDAO>();
 
 builder.Services.AddAuthentication(options =>
 {
