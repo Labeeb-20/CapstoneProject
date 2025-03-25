@@ -24,7 +24,7 @@ namespace LoanOrigination.Controllers
                 var res = dal.GetCustomer(firstName, lastName, dateOfBirth);
                 if (res == null)
                 {
-                    return NotFound("record not found");
+                    return NotFound("Customer not found");
                 }
                 else
                 {
