@@ -104,10 +104,8 @@
               "RelativeDocumentMoniker": "LoanOrigination\\Models\\LoanHistory\\TransactionsModel.cs",
               "ToolTip": "C:\\Users\\satyanarayana.k\\CapstoneProject\\LoanOrigination\\LoanOrigination\\Models\\LoanHistory\\TransactionsModel.cs",
               "RelativeToolTip": "LoanOrigination\\Models\\LoanHistory\\TransactionsModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-25T12:25:07.873Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-25T12:25:07.873Z"
             },
             {
               "$type": "Document",
@@ -117,7 +115,6 @@
               "RelativeDocumentMoniker": "LoanOrigination\\Models\\LoanHistory\\LoanHistoryModel.cs",
               "ToolTip": "C:\\Users\\satyanarayana.k\\CapstoneProject\\LoanOrigination\\LoanOrigination\\Models\\LoanHistory\\LoanHistoryModel.cs",
               "RelativeToolTip": "LoanOrigination\\Models\\LoanHistory\\LoanHistoryModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-25T12:25:07.967Z"
             },
@@ -153,7 +150,6 @@
               "RelativeDocumentMoniker": "LoanOrigination\\Controllers\\LoanHistoryController.cs",
               "ToolTip": "C:\\Users\\satyanarayana.k\\CapstoneProject\\LoanOrigination\\LoanOrigination\\Controllers\\LoanHistoryController.cs",
               "RelativeToolTip": "LoanOrigination\\Controllers\\LoanHistoryController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAE4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-25T12:25:07.99Z"
             },
@@ -165,7 +161,6 @@
               "RelativeDocumentMoniker": "LoanOrigination\\Models\\LoanHistory\\LoanHistoryDAO.cs",
               "ToolTip": "C:\\Users\\satyanarayana.k\\CapstoneProject\\LoanOrigination\\LoanOrigination\\Models\\LoanHistory\\LoanHistoryDAO.cs",
               "RelativeToolTip": "LoanOrigination\\Models\\LoanHistory\\LoanHistoryDAO.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAADgAAAA2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-25T12:25:07.995Z"
             },
@@ -213,7 +208,6 @@
               "RelativeDocumentMoniker": "LoanOrigination\\Models\\LoanHistory\\LoanHistoryDBContext.cs",
               "ToolTip": "C:\\Users\\satyanarayana.k\\CapstoneProject\\LoanOrigination\\LoanOrigination\\Models\\LoanHistory\\LoanHistoryDBContext.cs",
               "RelativeToolTip": "LoanOrigination\\Models\\LoanHistory\\LoanHistoryDBContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-25T12:25:08.026Z"
             },
@@ -225,7 +219,6 @@
               "RelativeDocumentMoniker": "LoanOrigination\\Models\\LoanHistory\\ILoanHistoryDAO.cs",
               "ToolTip": "C:\\Users\\satyanarayana.k\\CapstoneProject\\LoanOrigination\\LoanOrigination\\Models\\LoanHistory\\ILoanHistoryDAO.cs",
               "RelativeToolTip": "LoanOrigination\\Models\\LoanHistory\\ILoanHistoryDAO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-25T12:25:08.032Z"
             },
