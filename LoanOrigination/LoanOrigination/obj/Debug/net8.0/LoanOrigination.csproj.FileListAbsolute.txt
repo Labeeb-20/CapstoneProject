@@ -497,3 +497,14 @@ C:\Users\mohammed.labeeb\CapstoneProject\LoanOrigination\LoanOrigination\bin\Deb
 C:\Users\mohammed.labeeb\CapstoneProject\LoanOrigination\LoanOrigination\bin\Debug\net8.0\LoanAppExceptionLib.pdb
 >>>>>>> 2ad2d17cfd69fe74179278d1da2b4bec26b51979
 >>>>>>> 7bfbe990528f6bb9276a74f0b9a10eb2d1e08b1f
+C:\Users\pesala.gouthami\CapstoneProject\LoanOrigination\LoanOrigination\obj\Debug\net8.0\LoanOrigination.csproj.AssemblyReference.cache
+C:\Users\pesala.gouthami\CapstoneProject\LoanOrigination\LoanOrigination\obj\Debug\net8.0\LoanOrigination.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\pesala.gouthami\CapstoneProject\LoanOrigination\LoanOrigination\obj\Debug\net8.0\LoanOrigination.AssemblyInfoInputs.cache
+C:\Users\pesala.gouthami\CapstoneProject\LoanOrigination\LoanOrigination\obj\Debug\net8.0\LoanOrigination.AssemblyInfo.cs
+C:\Users\pesala.gouthami\CapstoneProject\LoanOrigination\LoanOrigination\obj\Debug\net8.0\LoanOrigination.csproj.CoreCompileInputs.cache
+C:\Users\pesala.gouthami\CapstoneProject\LoanOrigination\LoanOrigination\obj\Debug\net8.0\LoanOrigination.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\pesala.gouthami\CapstoneProject\LoanOrigination\LoanOrigination\obj\Debug\net8.0\LoanOrigination.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\pesala.gouthami\CapstoneProject\LoanOrigination\LoanOrigination\obj\Debug\net8.0\LoanOrigination.sourcelink.json
+C:\Users\pesala.gouthami\CapstoneProject\LoanOrigination\LoanOrigination\obj\Debug\net8.0\LoanOrigination.dll
+C:\Users\pesala.gouthami\CapstoneProject\LoanOrigination\LoanOrigination\obj\Debug\net8.0\refint\LoanOrigination.dll
+C:\Users\pesala.gouthami\CapstoneProject\LoanOrigination\LoanOrigination\obj\Debug\net8.0\LoanOrigination.pdb
