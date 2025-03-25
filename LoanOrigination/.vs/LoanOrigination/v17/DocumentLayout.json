@@ -54,7 +54,141 @@
           "Children": [
             {
               "$type": "Bookmark",
+<<<<<<< HEAD
               "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+=======
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "TransactionsModel.cs",
+              "DocumentMoniker": "C:\\Users\\satyanarayana.k\\CapstoneProject\\LoanOrigination\\LoanOrigination\\Models\\LoanHistory\\TransactionsModel.cs",
+              "RelativeDocumentMoniker": "LoanOrigination\\Models\\LoanHistory\\TransactionsModel.cs",
+              "ToolTip": "C:\\Users\\satyanarayana.k\\CapstoneProject\\LoanOrigination\\LoanOrigination\\Models\\LoanHistory\\TransactionsModel.cs",
+              "RelativeToolTip": "LoanOrigination\\Models\\LoanHistory\\TransactionsModel.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T12:25:07.873Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "LoanHistoryModel.cs",
+              "DocumentMoniker": "C:\\Users\\satyanarayana.k\\CapstoneProject\\LoanOrigination\\LoanOrigination\\Models\\LoanHistory\\LoanHistoryModel.cs",
+              "RelativeDocumentMoniker": "LoanOrigination\\Models\\LoanHistory\\LoanHistoryModel.cs",
+              "ToolTip": "C:\\Users\\satyanarayana.k\\CapstoneProject\\LoanOrigination\\LoanOrigination\\Models\\LoanHistory\\LoanHistoryModel.cs",
+              "RelativeToolTip": "LoanOrigination\\Models\\LoanHistory\\LoanHistoryModel.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T12:25:07.967Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "LoanCalculationController.cs",
+              "DocumentMoniker": "C:\\Users\\satyanarayana.k\\CapstoneProject\\LoanOrigination\\LoanOrigination\\Controllers\\LoanCalculationController.cs",
+              "RelativeDocumentMoniker": "LoanOrigination\\Controllers\\LoanCalculationController.cs",
+              "ToolTip": "C:\\Users\\satyanarayana.k\\CapstoneProject\\LoanOrigination\\LoanOrigination\\Controllers\\LoanCalculationController.cs",
+              "RelativeToolTip": "LoanOrigination\\Controllers\\LoanCalculationController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T10:19:41.501Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "FindCustomerController.cs",
+              "DocumentMoniker": "C:\\Users\\satyanarayana.k\\CapstoneProject\\LoanOrigination\\LoanOrigination\\Controllers\\FindCustomerController.cs",
+              "RelativeDocumentMoniker": "LoanOrigination\\Controllers\\FindCustomerController.cs",
+              "ToolTip": "C:\\Users\\satyanarayana.k\\CapstoneProject\\LoanOrigination\\LoanOrigination\\Controllers\\FindCustomerController.cs",
+              "RelativeToolTip": "LoanOrigination\\Controllers\\FindCustomerController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T10:19:40.205Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "LoanHistoryController.cs",
+              "DocumentMoniker": "C:\\Users\\satyanarayana.k\\CapstoneProject\\LoanOrigination\\LoanOrigination\\Controllers\\LoanHistoryController.cs",
+              "RelativeDocumentMoniker": "LoanOrigination\\Controllers\\LoanHistoryController.cs",
+              "ToolTip": "C:\\Users\\satyanarayana.k\\CapstoneProject\\LoanOrigination\\LoanOrigination\\Controllers\\LoanHistoryController.cs",
+              "RelativeToolTip": "LoanOrigination\\Controllers\\LoanHistoryController.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T12:25:07.99Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "LoanHistoryDAO.cs",
+              "DocumentMoniker": "C:\\Users\\satyanarayana.k\\CapstoneProject\\LoanOrigination\\LoanOrigination\\Models\\LoanHistory\\LoanHistoryDAO.cs",
+              "RelativeDocumentMoniker": "LoanOrigination\\Models\\LoanHistory\\LoanHistoryDAO.cs",
+              "ToolTip": "C:\\Users\\satyanarayana.k\\CapstoneProject\\LoanOrigination\\LoanOrigination\\Models\\LoanHistory\\LoanHistoryDAO.cs",
+              "RelativeToolTip": "LoanOrigination\\Models\\LoanHistory\\LoanHistoryDAO.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T12:25:07.995Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "DatabaseAccessException.cs",
+              "DocumentMoniker": "C:\\Users\\satyanarayana.k\\CapstoneProject\\LoanOrigination\\LoanAppExceptionLib\\DatabaseAccessException.cs",
+              "RelativeDocumentMoniker": "LoanAppExceptionLib\\DatabaseAccessException.cs",
+              "ToolTip": "C:\\Users\\satyanarayana.k\\CapstoneProject\\LoanOrigination\\LoanAppExceptionLib\\DatabaseAccessException.cs",
+              "RelativeToolTip": "LoanAppExceptionLib\\DatabaseAccessException.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T10:09:09.761Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CustomerNotFoundException.cs",
+              "DocumentMoniker": "C:\\Users\\satyanarayana.k\\CapstoneProject\\LoanOrigination\\LoanAppExceptionLib\\CustomerNotFoundException.cs",
+              "RelativeDocumentMoniker": "LoanAppExceptionLib\\CustomerNotFoundException.cs",
+              "ToolTip": "C:\\Users\\satyanarayana.k\\CapstoneProject\\LoanOrigination\\LoanAppExceptionLib\\CustomerNotFoundException.cs",
+              "RelativeToolTip": "LoanAppExceptionLib\\CustomerNotFoundException.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T10:07:51.192Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "LoanNotFoundException.cs",
+              "DocumentMoniker": "C:\\Users\\satyanarayana.k\\CapstoneProject\\LoanOrigination\\LoanAppExceptionLib\\LoanNotFoundException.cs",
+              "RelativeDocumentMoniker": "LoanAppExceptionLib\\LoanNotFoundException.cs",
+              "ToolTip": "C:\\Users\\satyanarayana.k\\CapstoneProject\\LoanOrigination\\LoanAppExceptionLib\\LoanNotFoundException.cs",
+              "RelativeToolTip": "LoanAppExceptionLib\\LoanNotFoundException.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T10:07:09.149Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "LoanHistoryDBContext.cs",
+              "DocumentMoniker": "C:\\Users\\satyanarayana.k\\CapstoneProject\\LoanOrigination\\LoanOrigination\\Models\\LoanHistory\\LoanHistoryDBContext.cs",
+              "RelativeDocumentMoniker": "LoanOrigination\\Models\\LoanHistory\\LoanHistoryDBContext.cs",
+              "ToolTip": "C:\\Users\\satyanarayana.k\\CapstoneProject\\LoanOrigination\\LoanOrigination\\Models\\LoanHistory\\LoanHistoryDBContext.cs",
+              "RelativeToolTip": "LoanOrigination\\Models\\LoanHistory\\LoanHistoryDBContext.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T12:25:08.026Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "ILoanHistoryDAO.cs",
+              "DocumentMoniker": "C:\\Users\\satyanarayana.k\\CapstoneProject\\LoanOrigination\\LoanOrigination\\Models\\LoanHistory\\ILoanHistoryDAO.cs",
+              "RelativeDocumentMoniker": "LoanOrigination\\Models\\LoanHistory\\ILoanHistoryDAO.cs",
+              "ToolTip": "C:\\Users\\satyanarayana.k\\CapstoneProject\\LoanOrigination\\LoanOrigination\\Models\\LoanHistory\\ILoanHistoryDAO.cs",
+              "RelativeToolTip": "LoanOrigination\\Models\\LoanHistory\\ILoanHistoryDAO.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T12:25:08.032Z"
+>>>>>>> 8449e9d2836bb80dde1811e4857a1beece24926a
             },
             {
               "$type": "Document",
