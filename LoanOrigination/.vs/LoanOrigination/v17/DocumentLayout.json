@@ -74,8 +74,7 @@
               "RelativeToolTip": "LoanOrigination\\Models\\LoanApply\\ILoanApplicationDataAccess.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-25T11:58:13.799Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-25T11:58:13.799Z"
             },
             {
               "$type": "Document",
@@ -123,8 +122,7 @@
               "RelativeToolTip": "LoanOrigination\\Models\\LoanApply\\LoanApplication.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-25T11:52:12.621Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-25T11:52:12.621Z"
             },
             {
               "$type": "Document",
@@ -148,8 +146,7 @@
               "RelativeToolTip": "LoanOrigination\\Models\\LoanHistory\\LoanHistoryDAO.cs",
               "ViewState": "AgIAABoAAAAAAAAAAAAYwEIAAAA5AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-25T11:52:12.626Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-25T11:52:12.626Z"
             },
             {
               "$type": "Document",
@@ -197,8 +194,7 @@
               "RelativeToolTip": "LoanOrigination\\Models\\LoanApply\\LoanApplicationDbContext.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAswA4AAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-25T11:52:12.635Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-25T11:52:12.635Z"
             },
             {
               "$type": "Document",
@@ -206,9 +202,9 @@
               "Title": "LoanApplicationDataAccess.cs",
               "DocumentMoniker": "C:\\Users\\pesala.gouthami\\CapstoneProject\\LoanOrigination\\LoanOrigination\\Models\\LoanApply\\LoanApplicationDataAccess.cs",
               "RelativeDocumentMoniker": "LoanOrigination\\Models\\LoanApply\\LoanApplicationDataAccess.cs",
-              "ToolTip": "C:\\Users\\pesala.gouthami\\CapstoneProject\\LoanOrigination\\LoanOrigination\\Models\\LoanApply\\LoanApplicationDataAccess.cs*",
-              "RelativeToolTip": "LoanOrigination\\Models\\LoanApply\\LoanApplicationDataAccess.cs*",
-              "ViewState": "AgIAAAMAAAAAAAAAAAArwBAAAAApAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\pesala.gouthami\\CapstoneProject\\LoanOrigination\\LoanOrigination\\Models\\LoanApply\\LoanApplicationDataAccess.cs",
+              "RelativeToolTip": "LoanOrigination\\Models\\LoanApply\\LoanApplicationDataAccess.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAArwBAAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-25T11:52:12.637Z",
               "EditorCaption": ""
