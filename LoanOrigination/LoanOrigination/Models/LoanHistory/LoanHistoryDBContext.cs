@@ -6,12 +6,12 @@ namespace LoanOrigination.Models.LoanHistory
     {
         public LoanHistoryDBContext(DbContextOptions<LoanHistoryDBContext> options) : base(options) { }
 
-        public DbSet<LoanHistoryModel> loanHistory { get; set; }
+        public DbSet<LoanHistoryModel> LoanHistory { get; set; }
 
-        public DbSet<LoanApplicationModel> loanapplicationmodel { get; set; }
+        public DbSet<LoanApplication> LoanApplication { get; set; }
 
 
-        public DbSet<TransactionsModel> transactions { get; set; }
+        public DbSet<TransactionsModel> Transactions { get; set; }
 
 
 

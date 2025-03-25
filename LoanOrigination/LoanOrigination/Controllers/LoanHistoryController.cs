@@ -1,4 +1,5 @@
-﻿using LoanOrigination.Models.LoanHistory;
+﻿using LoanAppExceptionLib;
+using LoanOrigination.Models.LoanHistory;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using System;
@@ -24,26 +25,24 @@ namespace LoanOrigination.Controllers
             {
                 if (customerId <= 0)
                 {
-                    return BadRequest("Invalid Customer ID");
+                    return BadRequest(new { statusCode = 400, message = "Invalid Customer ID" });
                 }
 
                 List<LoanHistoryModel> loanHistory = dal.GetLoanHistoryByCustomerId(customerId);
 
-                return Ok(loanHistory);
+                return Ok(new { statusCode = 200, data = loanHistory });
             }
-            catch (NoRecordsFoundException ex)
+            catch (CustomerNotFoundException ex)
             {
-                return NotFound(new { Message = ex.Message });
+                return NotFound(new { statusCode = 404, message = ex.Message });
             }
             catch (DatabaseAccessException ex)
             {
-              
-                return Ok(new { Message = ex.Message });
+                return StatusCode(StatusCodes.Status500InternalServerError, new { statusCode = 500, message = "Database access error occurred", details = ex.Message });
             }
             catch (Exception ex)
             {
-              
-                return Ok(new { Message = "An unexpected error occurred." });
+                return StatusCode(StatusCodes.Status500InternalServerError, new { statusCode = 500, message = "An unexpected error occurred", details = ex.Message });
             }
         }
 
@@ -55,26 +54,24 @@ namespace LoanOrigination.Controllers
             {
                 if (loanId <= 0)
                 {
-                    return BadRequest("Invalid Loan ID");
+                    return BadRequest(new { statusCode = 400, message = "Invalid Loan ID" });
                 }
 
                 List<TransactionsModel> transactions = dal.GetTransactionsByCustomerId(loanId);
 
-                return Ok(transactions);
+                return Ok(new { statusCode = 200, data = transactions });
             }
-            catch (NoRecordsFoundException ex)
+            catch (CustomerNotFoundException ex)
             {
-                return NotFound(new { Message = ex.Message });
+                return NotFound(new { statusCode = 404, message = ex.Message });
             }
             catch (DatabaseAccessException ex)
             {
-               
-                return  Ok(new { Message = ex.Message });
+                return StatusCode(StatusCodes.Status500InternalServerError, new { statusCode = 500, message = "Database access error occurred", details = ex.Message });
             }
             catch (Exception ex)
             {
-               
-                return  Ok(new { Message = "An unexpected error occurred." });
+                return StatusCode(StatusCodes.Status500InternalServerError, new { statusCode = 500, message = "An unexpected error occurred", details = ex.Message });
             }
         }
     }
