@@ -1,4 +1,6 @@
+
 using LoanOrigination.CustomerDetails.Models;
+using LoanOrigination.Models;
 using LoanOrigination.Models.Account;
 using LoanOrigination.Models.CustomerSearch;
 //using LoanOrigination.Models.LoanHistory;
@@ -15,6 +17,14 @@ builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+
+builder.Services.AddDbContext<LoanApplicationDbContext>(options =>
+{
+    options.UseNpgsql(builder.Configuration.GetConnectionString("conGou"));
+});
+builder.Services.AddTransient<ILoanApplicationDataAccess, LoanApplicationDataAccess>();
+
+
 builder.Services.AddDbContext<UserDB>(options =>
 {
     options.UseNpgsql(builder.Configuration.GetConnectionString("conLab"));
