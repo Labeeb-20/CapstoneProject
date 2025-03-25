@@ -5,20 +5,26 @@
     "version": "1.0"
   },
   "paths": {
-<<<<<<< HEAD
-    "/api/LoanHistory/GetLoanHistoryByCustomerId/{customerId}": {
-      "get": {
+    "/api/Account/Login/{username}/{pin}": {
+      "post": {
         "tags": [
-          "LoanHistory"
+          "Account"
         ],
         "parameters": [
           {
-            "name": "customerId",
+            "name": "username",
             "in": "path",
             "required": true,
             "schema": {
-              "type": "integer",
-              "format": "int32"
+              "type": "string"
+            }
+          },
+          {
+            "name": "pin",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
             }
           }
         ],
@@ -29,22 +35,37 @@
         }
       }
     },
-    "/api/LoanHistory/GetTransactionsByLoanId/{loanId}": {
-      "get": {
+    "/api/AddCustomer/AddCustomerDetails": {
+      "post": {
         "tags": [
-          "LoanHistory"
+          "AddCustomer"
         ],
-        "parameters": [
-          {
-            "name": "loanId",
-            "in": "path",
-            "required": true,
-            "schema": {
-              "type": "integer",
-              "format": "int32"
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/CustomerDetail"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/CustomerDetail"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/CustomerDetail"
+              }
             }
-=======
-<<<<<<< HEAD
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
     "/api/FindCustomer/customers/search/{firstName}/{lastName}/{dateOfBirth}": {
       "get": {
         "tags": [
@@ -53,16 +74,6 @@
         "parameters": [
           {
             "name": "firstName",
-=======
-    "/api/Account/Login/{username}/{pin}": {
-      "post": {
-        "tags": [
-          "Account"
-        ],
-        "parameters": [
-          {
-            "name": "username",
->>>>>>> 2ad2d17cfd69fe74179278d1da2b4bec26b51979
             "in": "path",
             "required": true,
             "schema": {
@@ -70,17 +81,12 @@
             }
           },
           {
-<<<<<<< HEAD
             "name": "lastName",
-=======
-            "name": "pin",
->>>>>>> 2ad2d17cfd69fe74179278d1da2b4bec26b51979
             "in": "path",
             "required": true,
             "schema": {
               "type": "string"
             }
-<<<<<<< HEAD
           },
           {
             "name": "dateOfBirth",
@@ -90,9 +96,6 @@
               "type": "string",
               "format": "date"
             }
-=======
->>>>>>> 2ad2d17cfd69fe74179278d1da2b4bec26b51979
->>>>>>> 7bfbe990528f6bb9276a74f0b9a10eb2d1e08b1f
           }
         ],
         "responses": {
@@ -103,5 +106,71 @@
       }
     }
   },
-  "components": { }
+  "components": {
+    "schemas": {
+      "CustomerDetail": {
+        "required": [
+          "address",
+          "company_Name",
+          "date_of_Birth",
+          "email",
+          "firstName",
+          "last_salary_date",
+          "lastName",
+          "net_Income",
+          "phone",
+          "salary"
+        ],
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "firstName": {
+            "minLength": 1,
+            "type": "string"
+          },
+          "lastName": {
+            "minLength": 1,
+            "type": "string"
+          },
+          "date_of_Birth": {
+            "type": "string",
+            "format": "date"
+          },
+          "phone": {
+            "maxLength": 10,
+            "minLength": 0,
+            "type": "string"
+          },
+          "email": {
+            "minLength": 1,
+            "type": "string"
+          },
+          "address": {
+            "minLength": 1,
+            "type": "string"
+          },
+          "company_Name": {
+            "minLength": 1,
+            "type": "string"
+          },
+          "salary": {
+            "type": "number",
+            "format": "double"
+          },
+          "net_Income": {
+            "type": "number",
+            "format": "double"
+          },
+          "last_salary_date": {
+            "type": "string",
+            "format": "date"
+          }
+        },
+        "additionalProperties": false
+      }
+    }
+  }
 }

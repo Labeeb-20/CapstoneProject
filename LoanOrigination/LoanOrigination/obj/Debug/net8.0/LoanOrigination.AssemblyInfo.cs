@@ -14,19 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("LoanOrigination")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+52b053aeb56be862d30ac071fef3b8605b9a6027")]
-=======
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+454831d6d5f8d23f8f149788bee0e5642521a2a7")]
->>>>>>> e53db5ca9000615784923d5c04b31ffc71b569a3
-=======
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+380d96df9e4adb0783e69ddb72551ba524481530")]
->>>>>>> 1d879f75f8d253528d50d4fb4af60a3eb1a9c9cf
-=======
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8a12eee984ba087e6c5c59596e27441eb9f087c7")]
->>>>>>> 003e1b80f4ff66ae3de8e4fd38cc1255a1773dcd
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ad84b02b910d7e3b935e426e3b1fd6bd4e616a07")]
 [assembly: System.Reflection.AssemblyProductAttribute("LoanOrigination")]
 [assembly: System.Reflection.AssemblyTitleAttribute("LoanOrigination")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
