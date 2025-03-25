@@ -1,8 +1,6 @@
-<<<<<<< HEAD
-using LoanOrigination.Models;
-=======
+
 using LoanOrigination.CustomerDetails.Models;
->>>>>>> 7fc1865ce81489043950c6e70b3b91d237c917de
+using LoanOrigination.Models;
 using LoanOrigination.Models.Account;
 using LoanOrigination.Models.CustomerSearch;
 //using LoanOrigination.Models.LoanHistory;
