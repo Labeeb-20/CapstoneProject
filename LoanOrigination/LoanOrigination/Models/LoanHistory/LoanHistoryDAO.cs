@@ -1,4 +1,5 @@
 ﻿using System.Collections.Generic;
+using LoanAppExceptionLib;
 using Npgsql;
 
 namespace LoanOrigination.Models.LoanHistory
@@ -16,23 +17,23 @@ namespace LoanOrigination.Models.LoanHistory
         {
             try
             {
-                List<LoanHistoryModel> record = ctx.loanHistory.Join(
-                                                ctx.loanapplicationmodel, lh => lh.LoanId, la => la.LoanId,
-                                                (lh, la) => new { loanHistory = lh, loanapplicationmodel = la })
-                                                .Where(result => result.loanapplicationmodel.Customer_Id == customerId)
+                List<LoanHistoryModel> record = ctx.LoanHistory.Join(
+                                                ctx.LoanApplication, lh => lh.LoanId, la => la.LoanId,
+                                                (lh, la) => new { LoanHistory = lh, LoanApplication = la })
+                                                .Where(result => result.LoanApplication.CustomerId == customerId)
                               .Select(result => new LoanHistoryModel
                               {
-                                  LoanId = result.loanHistory.LoanId,
-                                  Status = result.loanHistory.Status,
-                                  LoanAmount = result.loanHistory.LoanAmount,
-                                  AmountPaid = result.loanHistory.AmountPaid,
-                                  RemainingBalance = result.loanHistory.RemainingBalance,
-                                  DueDate = result.loanHistory.DueDate
+                                  LoanId = result.LoanHistory.LoanId,
+                                  Status = result.LoanHistory.Status,
+                                  LoanAmount = result.LoanHistory.LoanAmount,
+                                  AmountPaid = result.LoanHistory.AmountPaid,
+                                  RemainingBalance = result.LoanHistory.RemainingBalance,
+                                  DueDate = result.LoanHistory.DueDate
                               }).ToList();
 
                 if (record == null || record.Count == 0)
                 {
-                    throw new NoRecordsFoundException("No loan history found for the provided Customer ID.");
+                    throw new CustomerNotFoundException("No loan history found for the provided Customer ID.");
                 }
 
                 return record;
@@ -51,7 +52,7 @@ namespace LoanOrigination.Models.LoanHistory
         {
             try
             {
-                List<TransactionsModel> record = ctx.transactions
+                List<TransactionsModel> record = ctx.Transactions
                     .Where(t => t.LoanId == loanId)
                     .Select(t => new TransactionsModel
                     {
@@ -64,7 +65,7 @@ namespace LoanOrigination.Models.LoanHistory
 
                 if (record == null || record.Count == 0)
                 {
-                    throw new NoRecordsFoundException("No transactions found for the provided Loan ID.");
+                    throw new CustomerNotFoundException("No transactions found for the provided Loan ID.");
                 }
 
                 return record;

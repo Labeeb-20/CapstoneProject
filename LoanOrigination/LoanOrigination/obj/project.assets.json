@@ -1074,16 +1074,6 @@
         "build": {
           "buildTransitive/netcoreapp3.1/_._": {}
         }
-      },
-      "LoanAppExceptionLib/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v8.0",
-        "compile": {
-          "bin/placeholder/LoanAppExceptionLib.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/LoanAppExceptionLib.dll": {}
-        }
       }
     }
   },
@@ -2962,17 +2952,11 @@
         "system.threading.channels.nuspec",
         "useSharedDesignerContext.txt"
       ]
-    },
-    "LoanAppExceptionLib/1.0.0": {
-      "type": "project",
-      "path": "../LoanAppExceptionLib/LoanAppExceptionLib.csproj",
-      "msbuildProject": "../LoanAppExceptionLib/LoanAppExceptionLib.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net8.0": [
       "BCrypt.Net-Next >= 4.0.3",
-      "LoanAppExceptionLib >= 1.0.0",
       "Microsoft.AspNetCore.Authentication.JwtBearer >= 8.0.14",
       "Microsoft.EntityFrameworkCore >= 8.0.14",
       "Microsoft.EntityFrameworkCore.Tools >= 8.0.14",
@@ -2982,23 +2966,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\pesala.gouthami\\.nuget\\packages\\": {},
+    "C:\\Users\\mohammed.labeeb\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\pesala.gouthami\\CapstoneProject\\LoanOrigination\\LoanOrigination\\LoanOrigination.csproj",
+      "projectUniqueName": "C:\\Users\\mohammed.labeeb\\CapstoneProject\\LoanOrigination\\LoanOrigination\\LoanOrigination.csproj",
       "projectName": "LoanOrigination",
-      "projectPath": "C:\\Users\\pesala.gouthami\\CapstoneProject\\LoanOrigination\\LoanOrigination\\LoanOrigination.csproj",
-      "packagesPath": "C:\\Users\\pesala.gouthami\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\pesala.gouthami\\CapstoneProject\\LoanOrigination\\LoanOrigination\\obj\\",
+      "projectPath": "C:\\Users\\mohammed.labeeb\\CapstoneProject\\LoanOrigination\\LoanOrigination\\LoanOrigination.csproj",
+      "packagesPath": "C:\\Users\\mohammed.labeeb\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\mohammed.labeeb\\CapstoneProject\\LoanOrigination\\LoanOrigination\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\pesala.gouthami\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\mohammed.labeeb\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -3012,11 +2996,7 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
-          "projectReferences": {
-            "C:\\Users\\pesala.gouthami\\CapstoneProject\\LoanOrigination\\LoanAppExceptionLib\\LoanAppExceptionLib.csproj": {
-              "projectPath": "C:\\Users\\pesala.gouthami\\CapstoneProject\\LoanOrigination\\LoanAppExceptionLib\\LoanAppExceptionLib.csproj"
-            }
-          }
+          "projectReferences": {}
         }
       },
       "warningProperties": {
