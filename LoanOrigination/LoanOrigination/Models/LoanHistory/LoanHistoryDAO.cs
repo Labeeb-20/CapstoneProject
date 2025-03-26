@@ -20,7 +20,7 @@ namespace LoanOrigination.Models.LoanHistory
                 List<LoanHistoryModel> record = ctx.LoanHistory.Join(
                                                 ctx.LoanApplication, lh => lh.LoanId, la => la.LoanId,
                                                 (lh, la) => new { LoanHistory = lh, LoanApplication = la })
-                                                .Where(result => result.loanApplication.Customer_Id == customerId)
+                                                .Where(result => result.LoanApplication.CustomerId == customerId)
                               .Select(result => new LoanHistoryModel
                               {
                                   LoanId = result.LoanHistory.LoanId,

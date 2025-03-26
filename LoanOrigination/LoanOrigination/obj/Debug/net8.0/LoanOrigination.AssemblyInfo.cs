@@ -14,7 +14,11 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("LoanOrigination")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
+<<<<<<< HEAD
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+669c8a52a1aee4f40e756825282c1219acdad8c0")]
+=======
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+97a249f74900e304ec75fcb6f3dab338201661ae")]
+>>>>>>> 94684ba1f285911f74026b2ddb452f7ee27aa7f8
 [assembly: System.Reflection.AssemblyProductAttribute("LoanOrigination")]
 [assembly: System.Reflection.AssemblyTitleAttribute("LoanOrigination")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

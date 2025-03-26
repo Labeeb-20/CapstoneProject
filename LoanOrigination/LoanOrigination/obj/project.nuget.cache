@@ -1,6 +1,10 @@
 {
   "version": 2,
+<<<<<<< HEAD
   "dgSpecHash": "LCKPxS/s5Bs=",
+=======
+  "dgSpecHash": "opsA77btZag=",
+>>>>>>> 94684ba1f285911f74026b2ddb452f7ee27aa7f8
   "success": true,
   "projectFilePath": "C:\\Users\\mohammed.labeeb\\CapstoneProject\\LoanOrigination\\LoanOrigination\\LoanOrigination.csproj",
   "expectedPackageFiles": [
@@ -60,6 +64,7 @@
     "C:\\Users\\mohammed.labeeb\\.nuget\\packages\\system.text.encoding.codepages\\6.0.0\\system.text.encoding.codepages.6.0.0.nupkg.sha512",
     "C:\\Users\\mohammed.labeeb\\.nuget\\packages\\system.threading.channels\\6.0.0\\system.threading.channels.6.0.0.nupkg.sha512"
   ],
+<<<<<<< HEAD
   "logs": [
     {
       "code": "Undefined",
@@ -68,4 +73,7 @@
       "message": "Problem reading the cache file C:\\Users\\mohammed.labeeb\\CapstoneProject\\LoanOrigination\\LoanOrigination\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
     }
   ]
+=======
+  "logs": []
+>>>>>>> 94684ba1f285911f74026b2ddb452f7ee27aa7f8
 }
