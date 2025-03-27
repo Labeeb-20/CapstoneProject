@@ -64,9 +64,9 @@
   },
   {
     "ContainingType": "LoanOrigination.Controllers.LoanApplicationController",
-    "Method": "CalculateAndAddLoan",
-    "RelativePath": "api/loan/calculate-and-add",
-    "HttpMethod": "POST",
+    "Method": "GetNetIncomeByCustomerId",
+    "RelativePath": "api/loan",
+    "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
     "Parameters": [
@@ -74,6 +74,22 @@
         "Name": "customerId",
         "Type": "System.Int32",
         "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LoanOrigination.Controllers.LoanApplicationController",
+    "Method": "CalculateAndAddLoan",
+    "RelativePath": "api/loan/calculate-and-add/{customerId}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "customerId",
+        "Type": "System.Int32",
+        "IsRequired": true
       },
       {
         "Name": "loanRequest",

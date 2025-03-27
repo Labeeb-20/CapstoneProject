@@ -105,7 +105,7 @@
         }
       }
     },
-    "/api/loan/calculate-and-add": {
+    "/api/loan/calculate-and-add/{customerId}": {
       "post": {
         "tags": [
           "LoanApplication"
@@ -113,7 +113,8 @@
         "parameters": [
           {
             "name": "customerId",
-            "in": "query",
+            "in": "path",
+            "required": true,
             "schema": {
               "type": "integer",
               "format": "int32"
@@ -139,6 +140,28 @@
             }
           }
         },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/loan": {
+      "get": {
+        "tags": [
+          "LoanApplication"
+        ],
+        "parameters": [
+          {
+            "name": "customerId",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
         "responses": {
           "200": {
             "description": "OK"

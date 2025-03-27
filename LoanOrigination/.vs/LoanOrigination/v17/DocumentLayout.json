@@ -1,7 +1,12 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\mohammed.labeeb\\CapstoneProject\\LoanOrigination\\",
-  "Documents": [],
+  "WorkspaceRootPath": "C:\\Users\\pesala.gouthami\\CapstoneProject\\LoanOrigination\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D5E52CCC-35F8-4AD6-8C71-E4DE6B9B475E}|LoanOrigination\\LoanOrigination.csproj|c:\\users\\pesala.gouthami\\capstoneproject\\loanorigination\\loanorigination\\controllers\\loancalculationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D5E52CCC-35F8-4AD6-8C71-E4DE6B9B475E}|LoanOrigination\\LoanOrigination.csproj|solutionrelative:loanorigination\\controllers\\loancalculationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,11 +14,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "LoanCalculationController.cs",
+              "DocumentMoniker": "C:\\Users\\pesala.gouthami\\CapstoneProject\\LoanOrigination\\LoanOrigination\\Controllers\\LoanCalculationController.cs",
+              "RelativeDocumentMoniker": "LoanOrigination\\Controllers\\LoanCalculationController.cs",
+              "ToolTip": "C:\\Users\\pesala.gouthami\\CapstoneProject\\LoanOrigination\\LoanOrigination\\Controllers\\LoanCalculationController.cs",
+              "RelativeToolTip": "LoanOrigination\\Controllers\\LoanCalculationController.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAAYwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-27T07:13:02.586Z",
+              "EditorCaption": ""
             }
           ]
         }
