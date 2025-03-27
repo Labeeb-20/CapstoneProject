@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+// import { ReactiveFormsModule,FormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
 
 import { AppComponent } from './app.component';
@@ -35,17 +36,16 @@ const routes: Routes = [
     CustomersearchComponent,
     LoanhistoryComponent,
     ApplyloanComponent,
-    DashboadComponent,
-    HeaderComponent,
-    FooterComponent,
-    ContentComponent,
+    DashboadComponent
   ],
   imports: [
     BrowserModule,
-    HttpClientModule,
-    FormsModule,
     ReactiveFormsModule,
-    //AppRoutingModule,
+    FormsModule,
+    HttpClientModule,
+    HeaderComponent,
+    FooterComponent,
+    ContentComponent,
     RouterModule.forRoot(routes)
   ],
   providers: [LoginService],
