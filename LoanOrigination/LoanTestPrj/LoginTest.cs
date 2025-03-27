@@ -1,6 +1,6 @@
 namespace LoanTestPrj
 {
-    public class UnitTest1
+    public class LoginTest
     {
         [Fact]
         public void Test1()
