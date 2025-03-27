@@ -22,7 +22,7 @@ namespace LoanTestPrj
         {
             new Customer {
                 Id = 1,
-                FirstName = "ac",
+                FirstName = "abc",
                 LastName = "abc",
                 Date_of_Birth = new DateOnly(2002, 10, 09),
                 Phone = "1234567890",
@@ -38,12 +38,12 @@ namespace LoanTestPrj
                 FirstName = "abc",
                 LastName = "abc",
                 Date_of_Birth = new DateOnly(2002, 10, 09),
-                Phone = "string",
-                Email = "string",
-                Address = "string",
-                Company_Name = "string",
-                Salary = 0,
-                Net_Income = 0,
+                Phone = "1234567890",
+                Email = "xyz",
+                Address = "xyz",
+                Company_Name = "xyz",
+                Salary = 1230,
+                Net_Income = 1230,
                 Last_salary_date = new DateOnly(2025, 03, 26)
             }
         };
@@ -56,10 +56,39 @@ namespace LoanTestPrj
 
             // Assert
             var okResult = Assert.IsType<OkObjectResult>(result);
-            var returnedCustomers = Assert.IsType<List<Customer>>(okResult.Value);
-            Assert.Equal(2, returnedCustomers.Count);
-            Assert.Equal("ac", returnedCustomers[0].FirstName);
+            Assert.Equal(customers, okResult.Value);
+        }
+
+
+        [Fact]
+        public void GetCustomer_ReturnsNotFoundResult_WhenNoCustomersExist()
+        {
+            // Arrange
+            var mockDal = new Mock<ICustomerDataAccess>();
+            mockDal.Setup(d => d.GetCustomer("Peter", "Peter", new DateOnly(1990, 01, 02))).Returns((List<Customer>)null);
+            var controller = new FindCustomerController(mockDal.Object);
+
+            // Act
+            var result = controller.GetCustomer("Peter", "Peter", new DateOnly(1990, 01, 02));
+
+            // Assert
+            Assert.IsType<NotFoundObjectResult>(result);
+        }
+
+        [Fact]
+        public void GetCustomer_ReturnsBadRequestResult_WhenExceptionIsThrown()
+        {
+            // Arrange
+            var mockDal = new Mock<ICustomerDataAccess>();
+            mockDal.Setup(d => d.GetCustomer(It.IsAny<string>(), It.IsAny<string>(), It.IsAny<DateOnly>())).Throws(new Exception("Database error"));
+            var controller = new FindCustomerController(mockDal.Object);
+
+            // Act
+            var result = controller.GetCustomer("Peter", "Peter", new DateOnly(1990, 01, 02));
+
+            // Assert
+            var badRequestResult = Assert.IsType<BadRequestObjectResult>(result);
+            Assert.Equal("Database error", badRequestResult.Value);
         }
     }
-    
 }

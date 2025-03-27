@@ -48,6 +48,6 @@ export class CustomersearchComponent {
   }
 
   addCustomer(){
-    this.router.navigate(["/customerdetails"]);
+    this.router.navigate(["/customer-detail"]);
   }
 }
