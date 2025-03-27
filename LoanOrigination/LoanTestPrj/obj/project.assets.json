@@ -720,16 +720,67 @@
           }
         }
       },
+<<<<<<< HEAD
       "Moq/4.20.72": {
+=======
+<<<<<<< HEAD
+      "Moq/4.20.72": {
+=======
+<<<<<<< HEAD
+      "Moq/4.20.72": {
+=======
+      "Moq/4.20.70": {
+>>>>>>> main
+>>>>>>> main
+>>>>>>> main
         "type": "package",
         "dependencies": {
           "Castle.Core": "5.1.1"
         },
         "compile": {
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> main
+>>>>>>> main
           "lib/net6.0/Moq.dll": {}
         },
         "runtime": {
           "lib/net6.0/Moq.dll": {}
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+=======
+          "lib/net6.0/Moq.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Moq.dll": {
+            "related": ".xml"
+          }
+>>>>>>> main
+        }
+      },
+      "Moq.EntityFrameworkCore/8.0.1.7": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "8.0.1",
+          "Moq": "4.20.70"
+        },
+        "compile": {
+          "lib/net8.0/Moq.EntityFrameworkCore.dll": {}
+        },
+        "runtime": {
+          "lib/net8.0/Moq.EntityFrameworkCore.dll": {}
+<<<<<<< HEAD
+=======
+>>>>>>> main
+>>>>>>> main
+>>>>>>> main
         }
       },
       "NETStandard.Library/1.6.1": {
@@ -3528,23 +3579,90 @@
         "ref/xamarinwatchos10/_._"
       ]
     },
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> main
+>>>>>>> main
     "Moq/4.20.72": {
       "sha512": "EA55cjyNn8eTNWrgrdZJH5QLFp2L43oxl1tlkoYUKIE9pRwL784OWiTXeCV5ApS+AMYEAlt7Fo03A2XfouvHmQ==",
       "type": "package",
       "path": "moq/4.20.72",
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+=======
+    "Moq/4.20.70": {
+      "sha512": "4rNnAwdpXJBuxqrOCzCyICXHSImOTRktCgCWXWykuF1qwoIsVvEnR7PjbMk/eLOxWvhmj5Kwt+kDV3RGUYcNwg==",
+      "type": "package",
+      "path": "moq/4.20.70",
+>>>>>>> main
+>>>>>>> main
+>>>>>>> main
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "icon.png",
         "lib/net462/Moq.dll",
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> main
+>>>>>>> main
         "lib/net6.0/Moq.dll",
         "lib/netstandard2.0/Moq.dll",
         "lib/netstandard2.1/Moq.dll",
         "moq.4.20.72.nupkg.sha512",
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+=======
+        "lib/net462/Moq.xml",
+        "lib/net6.0/Moq.dll",
+        "lib/net6.0/Moq.xml",
+        "lib/netstandard2.0/Moq.dll",
+        "lib/netstandard2.0/Moq.xml",
+        "lib/netstandard2.1/Moq.dll",
+        "lib/netstandard2.1/Moq.xml",
+        "moq.4.20.70.nupkg.sha512",
+>>>>>>> main
+>>>>>>> main
+>>>>>>> main
         "moq.nuspec",
         "readme.md"
       ]
     },
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> main
+    "Moq.EntityFrameworkCore/8.0.1.7": {
+      "sha512": "flTvxLqQQPNFVk6R0We1wV7f203E0N7tQYkEb80XnXRfM6Zs1PF9KGzib8WrMykrBMmeOxLHg9NnWGUSb84t7g==",
+      "type": "package",
+      "path": "moq.entityframeworkcore/8.0.1.7",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "lib/net8.0/Moq.EntityFrameworkCore.dll",
+        "moq.entityframeworkcore.8.0.1.7.nupkg.sha512",
+        "moq.entityframeworkcore.nuspec"
+      ]
+    },
+<<<<<<< HEAD
+=======
+>>>>>>> main
+>>>>>>> main
+>>>>>>> main
     "NETStandard.Library/1.6.1": {
       "sha512": "WcSp3+vP+yHNgS8EV5J7pZ9IRpeDuARBPN28by8zqff1wJQXm26PVU8L3/fYLBJVU7BtDyqNVWq2KlCVvSSR4A==",
       "type": "package",
@@ -7170,30 +7288,91 @@
     "net8.0": [
       "LoanOrigination >= 1.0.0",
       "Microsoft.NET.Test.Sdk >= 17.8.0",
+<<<<<<< HEAD
       "Moq >= 4.20.72",
+=======
+<<<<<<< HEAD
+      "Moq >= 4.20.72",
+      "Moq.EntityFrameworkCore >= 8.0.1.7",
+=======
+<<<<<<< HEAD
+      "Moq >= 4.20.72",
+=======
+      "Moq.EntityFrameworkCore >= 8.0.1.7",
+>>>>>>> main
+>>>>>>> main
+>>>>>>> main
       "coverlet.collector >= 6.0.0",
       "xunit >= 2.5.3",
       "xunit.runner.visualstudio >= 2.5.3"
     ]
   },
   "packageFolders": {
+<<<<<<< HEAD
     "C:\\Users\\malave.navanishwara\\.nuget\\packages\\": {},
+=======
+<<<<<<< HEAD
+    "C:\\Users\\nandan.ds\\.nuget\\packages\\": {},
+=======
+<<<<<<< HEAD
+    "C:\\Users\\mohammed.labeeb\\.nuget\\packages\\": {},
+=======
+    "C:\\Users\\satyanarayana.k\\.nuget\\packages\\": {},
+>>>>>>> main
+>>>>>>> main
+>>>>>>> main
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
+<<<<<<< HEAD
       "projectUniqueName": "C:\\CapstoneProject\\LoanOrigination\\LoanTestPrj\\LoanTestPrj.csproj",
       "projectName": "LoanTestPrj",
       "projectPath": "C:\\CapstoneProject\\LoanOrigination\\LoanTestPrj\\LoanTestPrj.csproj",
       "packagesPath": "C:\\Users\\malave.navanishwara\\.nuget\\packages\\",
       "outputPath": "C:\\CapstoneProject\\LoanOrigination\\LoanTestPrj\\obj\\",
+=======
+<<<<<<< HEAD
+      "projectUniqueName": "C:\\CapstoneProject\\LoanOrigination\\LoanTestPrj\\LoanTestPrj.csproj",
+      "projectName": "LoanTestPrj",
+      "projectPath": "C:\\CapstoneProject\\LoanOrigination\\LoanTestPrj\\LoanTestPrj.csproj",
+      "packagesPath": "C:\\Users\\nandan.ds\\.nuget\\packages\\",
+      "outputPath": "C:\\CapstoneProject\\LoanOrigination\\LoanTestPrj\\obj\\",
+=======
+<<<<<<< HEAD
+      "projectUniqueName": "C:\\Users\\mohammed.labeeb\\CapstoneProject\\LoanOrigination\\LoanTestPrj\\LoanTestPrj.csproj",
+      "projectName": "LoanTestPrj",
+      "projectPath": "C:\\Users\\mohammed.labeeb\\CapstoneProject\\LoanOrigination\\LoanTestPrj\\LoanTestPrj.csproj",
+      "packagesPath": "C:\\Users\\mohammed.labeeb\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\mohammed.labeeb\\CapstoneProject\\LoanOrigination\\LoanTestPrj\\obj\\",
+=======
+      "projectUniqueName": "C:\\Users\\satyanarayana.k\\CapstoneProject\\LoanOrigination\\LoanTestPrj\\LoanTestPrj.csproj",
+      "projectName": "LoanTestPrj",
+      "projectPath": "C:\\Users\\satyanarayana.k\\CapstoneProject\\LoanOrigination\\LoanTestPrj\\LoanTestPrj.csproj",
+      "packagesPath": "C:\\Users\\satyanarayana.k\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\satyanarayana.k\\CapstoneProject\\LoanOrigination\\LoanTestPrj\\obj\\",
+>>>>>>> main
+>>>>>>> main
+>>>>>>> main
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
+<<<<<<< HEAD
         "C:\\Users\\malave.navanishwara\\AppData\\Roaming\\NuGet\\NuGet.Config",
+=======
+<<<<<<< HEAD
+        "C:\\Users\\nandan.ds\\AppData\\Roaming\\NuGet\\NuGet.Config",
+=======
+<<<<<<< HEAD
+        "C:\\Users\\mohammed.labeeb\\AppData\\Roaming\\NuGet\\NuGet.Config",
+=======
+        "C:\\Users\\satyanarayana.k\\AppData\\Roaming\\NuGet\\NuGet.Config",
+>>>>>>> main
+>>>>>>> main
+>>>>>>> main
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -7208,8 +7387,23 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
+<<<<<<< HEAD
             "C:\\CapstoneProject\\LoanOrigination\\LoanOrigination\\LoanOrigination.csproj": {
               "projectPath": "C:\\CapstoneProject\\LoanOrigination\\LoanOrigination\\LoanOrigination.csproj"
+=======
+<<<<<<< HEAD
+            "C:\\CapstoneProject\\LoanOrigination\\LoanOrigination\\LoanOrigination.csproj": {
+              "projectPath": "C:\\CapstoneProject\\LoanOrigination\\LoanOrigination\\LoanOrigination.csproj"
+=======
+<<<<<<< HEAD
+            "C:\\Users\\mohammed.labeeb\\CapstoneProject\\LoanOrigination\\LoanOrigination\\LoanOrigination.csproj": {
+              "projectPath": "C:\\Users\\mohammed.labeeb\\CapstoneProject\\LoanOrigination\\LoanOrigination\\LoanOrigination.csproj"
+=======
+            "C:\\Users\\satyanarayana.k\\CapstoneProject\\LoanOrigination\\LoanOrigination\\LoanOrigination.csproj": {
+              "projectPath": "C:\\Users\\satyanarayana.k\\CapstoneProject\\LoanOrigination\\LoanOrigination\\LoanOrigination.csproj"
+>>>>>>> main
+>>>>>>> main
+>>>>>>> main
             }
           }
         }
@@ -7234,10 +7428,32 @@
             "target": "Package",
             "version": "[17.8.0, )"
           },
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> main
           "Moq": {
             "target": "Package",
             "version": "[4.20.72, )"
           },
+<<<<<<< HEAD
+=======
+          "Moq.EntityFrameworkCore": {
+            "target": "Package",
+            "version": "[8.0.1.7, )"
+=======
+<<<<<<< HEAD
+          "Moq": {
+            "target": "Package",
+            "version": "[4.20.72, )"
+=======
+          "Moq.EntityFrameworkCore": {
+            "target": "Package",
+            "version": "[8.0.1.7, )"
+>>>>>>> main
+>>>>>>> main
+          },
+>>>>>>> main
           "coverlet.collector": {
             "target": "Package",
             "version": "[6.0.0, )"
@@ -7270,5 +7486,13 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.102/PortableRuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problem reading the cache file C:\\CapstoneProject\\LoanOrigination\\LoanTestPrj\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
+    }
+  ]
 }
