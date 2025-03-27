@@ -25,7 +25,13 @@ const routes: Routes = [
   { path: 'dashboard', component: DashboadComponent },
   { path: 'customer-detail', component: CustomerdetailsComponent },
   { path: 'customer-search', component: CustomersearchComponent },
+<<<<<<< HEAD
   { path: 'apply-loan/:id', component: ApplyloanComponent }
+=======
+  { path: 'apply-loan', component: ApplyloanComponent },
+  { path: 'loan-history', component: LoanhistoryComponent },
+
+>>>>>>> main
 ];
 @NgModule({
   declarations: [
