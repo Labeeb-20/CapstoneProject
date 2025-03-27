@@ -66,7 +66,7 @@ namespace LoanOrigination.Controllers
         }
 
         [HttpGet]
-        public IActionResult getNetIncomeByCustomerId([FromQuery] int customerId)
+        public IActionResult GetNetIncomeByCustomerId([FromQuery] int customerId)
         {
             if(customerId <= 0)
             {
