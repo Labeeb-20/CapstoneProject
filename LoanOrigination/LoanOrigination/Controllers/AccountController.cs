@@ -49,7 +49,7 @@ namespace LoanOrigination.Controllers
                         var tokenHandler = new JwtSecurityTokenHandler();
                         var token = tokenHandler.WriteToken(tokenParams);
 
-                        return Ok(new { token = token });
+                        return Ok(new { token = token, firstname = auth.FirstName, lastname = auth.LastName});
                     }
                     else
                     {
