@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import { ReactiveFormsModule,FormsModule } from '@angular/forms';
 
 import { AppComponent } from './app.component';
 import { LoginComponent } from './components/login/login.component';
@@ -8,6 +9,17 @@ import { CustomersearchComponent } from './components/customersearch/customersea
 import { LoanhistoryComponent } from './components/loanhistory/loanhistory.component';
 import { ApplyloanComponent } from './components/applyloan/applyloan.component';
 import { DashboadComponent } from './components/dashboad/dashboad.component';
+import { RouterModule, Routes } from '@angular/router';
+import { HttpClientModule } from '@angular/common/http';
+
+const routes: Routes =[
+
+  {
+    path:"",
+    component: CustomersearchComponent,
+  }
+]
+
 
 @NgModule({
   declarations: [
@@ -17,10 +29,15 @@ import { DashboadComponent } from './components/dashboad/dashboad.component';
     CustomersearchComponent,
     LoanhistoryComponent,
     ApplyloanComponent,
-    DashboadComponent
+    DashboadComponent,
+    
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    ReactiveFormsModule,
+    FormsModule,
+    HttpClientModule,
+    RouterModule.forRoot(routes)
   ],
   providers: [],
   bootstrap: [AppComponent]
