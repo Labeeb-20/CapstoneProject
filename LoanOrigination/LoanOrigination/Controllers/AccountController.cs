@@ -59,7 +59,7 @@ namespace LoanOrigination.Controllers
             }
             catch (Exception ex)
             {
-                return BadRequest(new { ex });
+                return BadRequest(new { errmsg = ex.Message });
             }
         }
     }

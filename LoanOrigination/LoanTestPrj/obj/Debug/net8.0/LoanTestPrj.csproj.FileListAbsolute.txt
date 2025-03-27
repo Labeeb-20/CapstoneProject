@@ -132,6 +132,10 @@ C:\Users\mohammed.labeeb\CapstoneProject\LoanOrigination\LoanTestPrj\bin\Debug\n
 C:\Users\mohammed.labeeb\CapstoneProject\LoanOrigination\LoanTestPrj\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
 C:\Users\mohammed.labeeb\CapstoneProject\LoanOrigination\LoanTestPrj\bin\Debug\net8.0\LoanOrigination.dll
 C:\Users\mohammed.labeeb\CapstoneProject\LoanOrigination\LoanTestPrj\bin\Debug\net8.0\LoanOrigination.pdb
+<<<<<<< HEAD
+C:\Users\mohammed.labeeb\CapstoneProject\LoanOrigination\LoanTestPrj\bin\Debug\net8.0\Castle.Core.dll
+C:\Users\mohammed.labeeb\CapstoneProject\LoanOrigination\LoanTestPrj\bin\Debug\net8.0\Moq.dll
+=======
 C:\Users\satyanarayana.k\CapstoneProject\LoanOrigination\LoanTestPrj\bin\Debug\net8.0\CoverletSourceRootsMapping_LoanTestPrj
 C:\Users\satyanarayana.k\CapstoneProject\LoanOrigination\LoanTestPrj\bin\Debug\net8.0\appsettings.Development.json
 C:\Users\satyanarayana.k\CapstoneProject\LoanOrigination\LoanTestPrj\bin\Debug\net8.0\appsettings.json
@@ -269,3 +273,4 @@ C:\Users\satyanarayana.k\CapstoneProject\LoanOrigination\LoanTestPrj\obj\Debug\n
 C:\Users\satyanarayana.k\CapstoneProject\LoanOrigination\LoanTestPrj\obj\Debug\net8.0\LoanTestPrj.pdb
 C:\Users\satyanarayana.k\CapstoneProject\LoanOrigination\LoanTestPrj\obj\Debug\net8.0\LoanTestPrj.genruntimeconfig.cache
 C:\Users\satyanarayana.k\CapstoneProject\LoanOrigination\LoanTestPrj\obj\Debug\net8.0\ref\LoanTestPrj.dll
+>>>>>>> main
