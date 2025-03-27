@@ -48,7 +48,7 @@ namespace LoanOrigination.Controllers
 
         [HttpGet]
         [Route("GetTransactionsByLoanId/{loanId}")]
-        public IActionResult GetTransactionsByCustomerId(int loanId)
+        public IActionResult GetTransactionsByLoanId(int loanId)
         {
             try
             {
