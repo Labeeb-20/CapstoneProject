@@ -54,8 +54,7 @@
               "RelativeToolTip": "LoanTestPrj\\LoanHistoryTest.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-27T05:04:19.492Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-27T05:04:19.492Z"
             },
             {
               "$type": "Document",
@@ -80,8 +79,7 @@
               "RelativeToolTip": "LoanTestPrj\\CustomerDetailsTest.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-27T05:03:35.641Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-27T05:03:35.641Z"
             },
             {
               "$type": "Document",
@@ -93,8 +91,7 @@
               "RelativeToolTip": "LoanTestPrj\\FindCustomerTest.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-27T05:02:35.411Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-27T05:02:35.411Z"
             },
             {
               "$type": "Document",
@@ -106,8 +103,7 @@
               "RelativeToolTip": "LoanTestPrj\\LoginTest.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-27T04:40:01.878Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-27T04:40:01.878Z"
             },
             {
               "$type": "Document",
@@ -119,8 +115,7 @@
               "RelativeToolTip": "LoanOrigination\\Controllers\\AccountController.cs",
               "ViewState": "AgIAADIAAAAAAAAAAAAcwD4AAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-26T07:26:55.626Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-26T07:26:55.626Z"
             },
             {
               "$type": "Document",
@@ -132,8 +127,7 @@
               "RelativeToolTip": "LoanOrigination\\Program.cs",
               "ViewState": "AgIAAFQAAAAAAAAAAIBJwFwAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-26T07:23:56.661Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-26T07:23:56.661Z"
             }
           ]
         }
