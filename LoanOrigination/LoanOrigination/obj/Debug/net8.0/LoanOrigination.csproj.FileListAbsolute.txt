@@ -1,4 +1,7 @@
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> main
 C:\CapstoneProject\LoanOrigination\LoanOrigination\bin\Debug\net8.0\appsettings.Development.json
 C:\CapstoneProject\LoanOrigination\LoanOrigination\bin\Debug\net8.0\appsettings.json
 C:\CapstoneProject\LoanOrigination\LoanOrigination\bin\Debug\net8.0\LoanOrigination.staticwebassets.endpoints.json
@@ -124,6 +127,8 @@ C:\CapstoneProject\LoanOrigination\LoanOrigination\obj\Debug\net8.0\refint\LoanO
 C:\CapstoneProject\LoanOrigination\LoanOrigination\obj\Debug\net8.0\LoanOrigination.pdb
 C:\CapstoneProject\LoanOrigination\LoanOrigination\obj\Debug\net8.0\LoanOrigination.genruntimeconfig.cache
 C:\CapstoneProject\LoanOrigination\LoanOrigination\obj\Debug\net8.0\ref\LoanOrigination.dll
+<<<<<<< HEAD
+=======
 =======
 C:\Users\mohammed.labeeb\CapstoneProject\LoanOrigination\LoanOrigination\bin\Debug\net8.0\appsettings.Development.json
 C:\Users\mohammed.labeeb\CapstoneProject\LoanOrigination\LoanOrigination\bin\Debug\net8.0\appsettings.json
@@ -500,4 +505,5 @@ C:\Users\satyanarayana.k\CapstoneProject\LoanOrigination\LoanOrigination\obj\Deb
 C:\Users\satyanarayana.k\CapstoneProject\LoanOrigination\LoanOrigination\obj\Debug\net8.0\LoanOrigination.pdb
 C:\Users\satyanarayana.k\CapstoneProject\LoanOrigination\LoanOrigination\obj\Debug\net8.0\LoanOrigination.genruntimeconfig.cache
 C:\Users\satyanarayana.k\CapstoneProject\LoanOrigination\LoanOrigination\obj\Debug\net8.0\ref\LoanOrigination.dll
+>>>>>>> main
 >>>>>>> main

@@ -12,9 +12,13 @@ build_property.RootNamespace = LoanTestPrj
 build_property.ProjectDir = C:\CapstoneProject\LoanOrigination\LoanTestPrj\
 =======
 <<<<<<< HEAD
+build_property.ProjectDir = C:\CapstoneProject\LoanOrigination\LoanTestPrj\
+=======
+<<<<<<< HEAD
 build_property.ProjectDir = C:\Users\mohammed.labeeb\CapstoneProject\LoanOrigination\LoanTestPrj\
 =======
 build_property.ProjectDir = C:\Users\satyanarayana.k\CapstoneProject\LoanOrigination\LoanTestPrj\
+>>>>>>> main
 >>>>>>> main
 >>>>>>> main
 build_property.EnableComHosting = 

@@ -13,9 +13,13 @@ build_property.RootNamespace = LoanOrigination
 build_property.ProjectDir = C:\CapstoneProject\LoanOrigination\LoanOrigination\
 =======
 <<<<<<< HEAD
+build_property.ProjectDir = C:\CapstoneProject\LoanOrigination\LoanOrigination\
+=======
+<<<<<<< HEAD
 build_property.ProjectDir = C:\Users\mohammed.labeeb\CapstoneProject\LoanOrigination\LoanOrigination\
 =======
 build_property.ProjectDir = C:\Users\satyanarayana.k\CapstoneProject\LoanOrigination\LoanOrigination\
+>>>>>>> main
 >>>>>>> main
 >>>>>>> main
 build_property.EnableComHosting = 
@@ -27,9 +31,13 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\CapstoneProject\LoanOrigination\LoanOrigination
 =======
 <<<<<<< HEAD
+build_property.MSBuildProjectDirectory = C:\CapstoneProject\LoanOrigination\LoanOrigination
+=======
+<<<<<<< HEAD
 build_property.MSBuildProjectDirectory = C:\Users\mohammed.labeeb\CapstoneProject\LoanOrigination\LoanOrigination
 =======
 build_property.MSBuildProjectDirectory = C:\Users\satyanarayana.k\CapstoneProject\LoanOrigination\LoanOrigination
+>>>>>>> main
 >>>>>>> main
 >>>>>>> main
 build_property._RazorSourceGeneratorDebug = 
