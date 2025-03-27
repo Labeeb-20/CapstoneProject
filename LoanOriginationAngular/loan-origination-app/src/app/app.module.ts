@@ -1,6 +1,8 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+// import { ReactiveFormsModule,FormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
+
 
 import { AppComponent } from './app.component';
 import { LoginComponent } from './components/login/login.component';
@@ -25,8 +27,6 @@ const routes: Routes = [
   { path: 'customer-search', component: CustomersearchComponent },
   { path: 'apply-loan', component: ApplyloanComponent }
 ];
-
-
 @NgModule({
   declarations: [
     AppComponent,
@@ -36,16 +36,15 @@ const routes: Routes = [
     LoanhistoryComponent,
     ApplyloanComponent,
     DashboadComponent,
-    HeaderComponent,
-    FooterComponent,
-    ContentComponent,
+    ContentComponent
   ],
   imports: [
     BrowserModule,
     HttpClientModule,
     FormsModule,
     ReactiveFormsModule,
-    //AppRoutingModule,
+    FormsModule,
+    HttpClientModule,
     RouterModule.forRoot(routes)
   ],
   providers: [LoginService],

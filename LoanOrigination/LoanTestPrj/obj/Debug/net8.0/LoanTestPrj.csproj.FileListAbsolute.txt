@@ -132,3 +132,5 @@ C:\Users\mohammed.labeeb\CapstoneProject\LoanOrigination\LoanTestPrj\bin\Debug\n
 C:\Users\mohammed.labeeb\CapstoneProject\LoanOrigination\LoanTestPrj\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
 C:\Users\mohammed.labeeb\CapstoneProject\LoanOrigination\LoanTestPrj\bin\Debug\net8.0\LoanOrigination.dll
 C:\Users\mohammed.labeeb\CapstoneProject\LoanOrigination\LoanTestPrj\bin\Debug\net8.0\LoanOrigination.pdb
+C:\Users\mohammed.labeeb\CapstoneProject\LoanOrigination\LoanTestPrj\bin\Debug\net8.0\Castle.Core.dll
+C:\Users\mohammed.labeeb\CapstoneProject\LoanOrigination\LoanTestPrj\bin\Debug\net8.0\Moq.dll
