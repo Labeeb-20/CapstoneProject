@@ -15,10 +15,11 @@ namespace LoanOrigination.Controllers
             _dataAccess = dataAccess;
         }
 
-        [HttpPost("calculate-and-add")]
-        public IActionResult CalculateAndAddLoan([FromQuery] int customerId, [FromBody] LoanApplication loanRequest)
+        [HttpPost]
+        [Route("calculate-and-add/{customerId}")]
+        public IActionResult CalculateAndAddLoan(int customerId, [FromBody] LoanApplication loanRequest)
         {
-            if (customerId <= 0 || loanRequest == null)
+            if (customerId <= 0 )
             {
                 return BadRequest(new { error = "Invalid Customer ID or Loan Request data." });
             }
@@ -35,7 +36,7 @@ namespace LoanOrigination.Controllers
             int maximumLoanAmount = (int)Math.Round((decimal)netIncome / 2, MidpointRounding.AwayFromZero);
 
             // Validate Loan Amount
-            if (loanRequest.LoanAmount < suggestedLoanAmount || loanRequest.LoanAmount > maximumLoanAmount)
+            if (loanRequest.LoanAmount< suggestedLoanAmount || loanRequest.LoanAmount > maximumLoanAmount)
             {
                 return BadRequest(new
                 {
@@ -62,6 +63,17 @@ namespace LoanOrigination.Controllers
             {
                 return StatusCode(500, new { error = ex.Message });
             }
+        }
+
+        [HttpGet]
+        public IActionResult getNetIncomeByCustomerId([FromQuery] int customerId)
+        {
+            if(customerId <= 0)
+            {
+                return BadRequest(new { error = "Invalid Customer ID or Loan Request data." });
+            }
+            var netIncome = _dataAccess.GetNetIncomeByCustomerId(customerId);
+            return Ok(netIncome);
         }
     }
 }
