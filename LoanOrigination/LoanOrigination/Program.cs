@@ -3,6 +3,8 @@ using LoanOrigination.CustomerDetails.Models;
 using LoanOrigination.Models;
 using LoanOrigination.Models.Account;
 using LoanOrigination.Models.CustomerSearch;
+using LoanOrigination.Models.LoanHistory;
+
 //using LoanOrigination.Models.LoanHistory;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.EntityFrameworkCore;
@@ -48,12 +50,12 @@ builder.Services.AddScoped<ICustomerDetailsDataAccess, CustomerDetailsDataAccess
 var secretKey = builder.Configuration["jwt:secretKey"];
 var byteKey = Encoding.UTF8.GetBytes(secretKey);
 
-//builder.Services.AddDbContext<LoanHistoryDBContext>(options =>
-//{
-//    options.UseNpgsql(builder.Configuration.GetConnectionString("conSat"));
-//});
+builder.Services.AddDbContext<LoanHistoryDBContext>(options =>
+{
+    options.UseNpgsql(builder.Configuration.GetConnectionString("conSat"));
+});
 
-//builder.Services.AddScoped<ILoanHistoryDAO, LoanHistoryDAO>();
+builder.Services.AddScoped<ILoanHistoryDAO, LoanHistoryDAO>();
 
 builder.Services.AddAuthentication(options =>
 {
