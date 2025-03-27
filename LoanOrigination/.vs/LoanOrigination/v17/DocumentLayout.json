@@ -14,6 +14,10 @@
       "RelativeMoniker": "D:0:0:{CA85904C-8639-434E-98BA-882C76FD3D61}|LoanTestPrj\\LoanTestPrj.csproj|solutionrelative:loantestprj\\findcustomertest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{D5E52CCC-35F8-4AD6-8C71-E4DE6B9B475E}|LoanOrigination\\LoanOrigination.csproj|c:\\capstoneproject\\loanorigination\\loanorigination\\controllers\\addcustomercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D5E52CCC-35F8-4AD6-8C71-E4DE6B9B475E}|LoanOrigination\\LoanOrigination.csproj|solutionrelative:loanorigination\\controllers\\addcustomercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{D5E52CCC-35F8-4AD6-8C71-E4DE6B9B475E}|LoanOrigination\\LoanOrigination.csproj|c:\\capstoneproject\\loanorigination\\loanorigination\\models\\customersearch\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D5E52CCC-35F8-4AD6-8C71-E4DE6B9B475E}|LoanOrigination\\LoanOrigination.csproj|solutionrelative:loanorigination\\models\\customersearch\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
 >>>>>>> 0e55802 (c3)
@@ -26,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
@@ -42,6 +46,19 @@
               "WhenOpened": "2025-03-27T07:13:02.586Z",
 =======
               "DocumentIndex": 1,
+              "Title": "AddCustomerController.cs",
+              "DocumentMoniker": "C:\\CapstoneProject\\LoanOrigination\\LoanOrigination\\Controllers\\AddCustomerController.cs",
+              "RelativeDocumentMoniker": "LoanOrigination\\Controllers\\AddCustomerController.cs",
+              "ToolTip": "C:\\CapstoneProject\\LoanOrigination\\LoanOrigination\\Controllers\\AddCustomerController.cs",
+              "RelativeToolTip": "LoanOrigination\\Controllers\\AddCustomerController.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABwAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-27T09:02:01.494Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "Customer.cs",
               "DocumentMoniker": "C:\\CapstoneProject\\LoanOrigination\\LoanOrigination\\Models\\CustomerSearch\\Customer.cs",
               "RelativeDocumentMoniker": "LoanOrigination\\Models\\CustomerSearch\\Customer.cs",
@@ -49,8 +66,7 @@
               "RelativeToolTip": "LoanOrigination\\Models\\CustomerSearch\\Customer.cs",
               "ViewState": "AgIAAC0AAAAAAAAAAAAIwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-27T06:13:40.879Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-27T06:13:40.879Z"
             },
             {
               "$type": "Document",
@@ -60,7 +76,7 @@
               "RelativeDocumentMoniker": "LoanTestPrj\\FindCustomerTest.cs",
               "ToolTip": "C:\\CapstoneProject\\LoanOrigination\\LoanTestPrj\\FindCustomerTest.cs*",
               "RelativeToolTip": "LoanTestPrj\\FindCustomerTest.cs*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAD0AAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAACgAAAAAAAAAAAAQwCgAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-27T05:45:14.838Z",
 >>>>>>> 0e55802 (c3)
