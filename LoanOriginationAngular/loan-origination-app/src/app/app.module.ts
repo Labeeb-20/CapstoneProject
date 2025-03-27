@@ -8,6 +8,8 @@ import { CustomersearchComponent } from './components/customersearch/customersea
 import { LoanhistoryComponent } from './components/loanhistory/loanhistory.component';
 import { ApplyloanComponent } from './components/applyloan/applyloan.component';
 import { DashboadComponent } from './components/dashboad/dashboad.component';
+import { FormsModule } from '@angular/forms';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -20,7 +22,10 @@ import { DashboadComponent } from './components/dashboad/dashboad.component';
     DashboadComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    FormsModule,
+    HttpClientModule
+
   ],
   providers: [],
   bootstrap: [AppComponent]
