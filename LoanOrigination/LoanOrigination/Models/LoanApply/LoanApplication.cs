@@ -7,6 +7,7 @@ namespace LoanOrigination.Models
     public class LoanApplication
     {
         [Key]
+        [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         [Column("loan_id")]
         public int LoanId {  get; set; }
         [Column("customer_id")]
@@ -16,7 +17,7 @@ namespace LoanOrigination.Models
         [Column("loan_amount")]
         public double LoanAmount { get; set; }
         [Column("loan_status")]
-        public string LoanStatus {  get; set; }
+        public string LoanStatus { get; set; } = "";
         [Column("date_of_request")]
         public DateOnly DateOfRequest {  get; set; }
         [Column("loan_tenure")]
