@@ -2967,15 +2967,26 @@
   },
   "packageFolders": {
 <<<<<<< HEAD
+    "C:\\Users\\nandan.ds\\.nuget\\packages\\": {},
+=======
+<<<<<<< HEAD
     "C:\\Users\\mohammed.labeeb\\.nuget\\packages\\": {},
 =======
     "C:\\Users\\satyanarayana.k\\.nuget\\packages\\": {},
+>>>>>>> main
 >>>>>>> main
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
+<<<<<<< HEAD
+      "projectUniqueName": "C:\\CapstoneProject\\LoanOrigination\\LoanOrigination\\LoanOrigination.csproj",
+      "projectName": "LoanOrigination",
+      "projectPath": "C:\\CapstoneProject\\LoanOrigination\\LoanOrigination\\LoanOrigination.csproj",
+      "packagesPath": "C:\\Users\\nandan.ds\\.nuget\\packages\\",
+      "outputPath": "C:\\CapstoneProject\\LoanOrigination\\LoanOrigination\\obj\\",
+=======
 <<<<<<< HEAD
       "projectUniqueName": "C:\\Users\\mohammed.labeeb\\CapstoneProject\\LoanOrigination\\LoanOrigination\\LoanOrigination.csproj",
       "projectName": "LoanOrigination",
@@ -2989,15 +3000,20 @@
       "packagesPath": "C:\\Users\\satyanarayana.k\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\satyanarayana.k\\CapstoneProject\\LoanOrigination\\LoanOrigination\\obj\\",
 >>>>>>> main
+>>>>>>> main
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
 <<<<<<< HEAD
+        "C:\\Users\\nandan.ds\\AppData\\Roaming\\NuGet\\NuGet.Config",
+=======
+<<<<<<< HEAD
         "C:\\Users\\mohammed.labeeb\\AppData\\Roaming\\NuGet\\NuGet.Config",
 =======
         "C:\\Users\\satyanarayana.k\\AppData\\Roaming\\NuGet\\NuGet.Config",
+>>>>>>> main
 >>>>>>> main
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"

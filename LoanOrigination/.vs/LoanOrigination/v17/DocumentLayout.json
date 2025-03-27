@@ -1,6 +1,13 @@
 {
   "Version": 1,
 <<<<<<< HEAD
+  "WorkspaceRootPath": "C:\\CapstoneProject\\LoanOrigination\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{CA85904C-8639-434E-98BA-882C76FD3D61}|LoanTestPrj\\LoanTestPrj.csproj|c:\\capstoneproject\\loanorigination\\loantestprj\\findcustomertest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CA85904C-8639-434E-98BA-882C76FD3D61}|LoanTestPrj\\LoanTestPrj.csproj|solutionrelative:loantestprj\\findcustomertest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+=======
+<<<<<<< HEAD
   "WorkspaceRootPath": "C:\\Users\\mohammed.labeeb\\CapstoneProject\\LoanOrigination\\",
   "Documents": [
     {
@@ -89,6 +96,7 @@
       "RelativeMoniker": "D:0:0:{D5E52CCC-35F8-4AD6-8C71-E4DE6B9B475E}|LoanOrigination\\LoanOrigination.csproj|solutionrelative:loanorigination\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
 >>>>>>> c65fd6c (c3)
 >>>>>>> main
+>>>>>>> main
     }
   ],
   "DocumentGroupContainers": [
@@ -99,10 +107,14 @@
         {
           "DockedWidth": 200,
 <<<<<<< HEAD
+          "SelectedChildIndex": 2,
+=======
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
           "SelectedChildIndex": 0,
+>>>>>>> main
           "Children": [
             {
               "$type": "Document",
@@ -118,6 +130,10 @@
               "WhenOpened": "2025-03-27T04:40:01.878Z",
               "IsPinned": true,
               "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
             },
             {
               "$type": "Bookmark",
@@ -264,6 +280,16 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+<<<<<<< HEAD
+              "Title": "FindCustomerTest.cs",
+              "DocumentMoniker": "C:\\CapstoneProject\\LoanOrigination\\LoanTestPrj\\FindCustomerTest.cs",
+              "RelativeDocumentMoniker": "LoanTestPrj\\FindCustomerTest.cs",
+              "ToolTip": "C:\\CapstoneProject\\LoanOrigination\\LoanTestPrj\\FindCustomerTest.cs",
+              "RelativeToolTip": "LoanTestPrj\\FindCustomerTest.cs",
+              "ViewState": "AgIAAEUAAAAAAAAAAAAYwEMAAABZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-27T10:05:10.482Z",
+=======
               "Title": "LoanHistoryDAO.cs",
               "DocumentMoniker": "C:\\Users\\satyanarayana.k\\CapstoneProject\\LoanOrigination\\LoanOrigination\\Models\\LoanHistory\\LoanHistoryDAO.cs",
               "RelativeDocumentMoniker": "LoanOrigination\\Models\\LoanHistory\\LoanHistoryDAO.cs",
@@ -382,6 +408,7 @@
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-26T05:15:26.509Z",
 >>>>>>> c65fd6c (c3)
+>>>>>>> main
 >>>>>>> main
               "EditorCaption": ""
             }
