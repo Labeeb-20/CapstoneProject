@@ -22,12 +22,12 @@ namespace LoanOrigination.Controllers
             try
             {
                 dal.AddCustomerDetails(customerDetails);
-                return Ok("CustomerDetails added Successfully");
+                return Ok(new { msg = "CustomerDetails added Successfully" });
 
             }
             catch (Exception ex)
             {
-                return BadRequest(ex.Message);
+                return BadRequest(new { msg = ex.Message });
             }
 
         }

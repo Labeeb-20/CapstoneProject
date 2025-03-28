@@ -25,7 +25,13 @@ const routes: Routes = [
   { path: 'dashboard', component: DashboadComponent },
   { path: 'customer-detail', component: CustomerdetailsComponent },
   { path: 'customer-search', component: CustomersearchComponent },
-  { path: 'apply-loan', component: ApplyloanComponent }
+<<<<<<< HEAD
+  { path: 'apply-loan/:id', component: ApplyloanComponent }
+=======
+  { path: 'apply-loan', component: ApplyloanComponent },
+  { path: 'loan-history', component: LoanhistoryComponent },
+
+>>>>>>> main
 ];
 @NgModule({
   declarations: [
@@ -36,7 +42,9 @@ const routes: Routes = [
     LoanhistoryComponent,
     ApplyloanComponent,
     DashboadComponent,
-    ContentComponent
+    ContentComponent,
+    HeaderComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
