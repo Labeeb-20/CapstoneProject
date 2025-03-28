@@ -4,5 +4,7 @@
     {
         List<Customer> GetCustomer(string firstName, string lastName, DateOnly dateOfBirth);
 
+        Customer GetCustomerById(int id);
+
     }
 }

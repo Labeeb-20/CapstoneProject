@@ -36,5 +36,28 @@ namespace LoanOrigination.Controllers
                 return BadRequest(ex.Message);
             }
         }
+
+        [HttpGet]
+        [Route("customer/getCustomerById/{id}")]
+        public IActionResult GetCustomerById(int id)
+        {
+            try
+            {
+                var res = dal.GetCustomerById(id);
+                if (res == null)
+                {
+                    return NotFound("Customer not found");
+                }
+                else
+                {
+                    return Ok(res);
+                }
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(ex.Message);
+            }
+
+        }
     }
 }
