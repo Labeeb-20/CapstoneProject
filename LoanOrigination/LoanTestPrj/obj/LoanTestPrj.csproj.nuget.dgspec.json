@@ -264,6 +264,12 @@
               "version": "[17.8.0, )"
             },
 <<<<<<< HEAD
+            "Moq.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.1.7, )"
+            },
+=======
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
@@ -288,6 +294,7 @@
 >>>>>>> main
 >>>>>>> main
             },
+>>>>>>> main
 >>>>>>> main
             "coverlet.collector": {
               "target": "Package",

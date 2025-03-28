@@ -4,6 +4,14 @@
   "WorkspaceRootPath": "C:\\CapstoneProject\\LoanOrigination\\",
   "Documents": [
     {
+<<<<<<< HEAD
+      "AbsoluteMoniker": "D:0:0:{D5E52CCC-35F8-4AD6-8C71-E4DE6B9B475E}|LoanOrigination\\LoanOrigination.csproj|c:\\users\\pesala.gouthami\\capstoneproject\\loanorigination\\loanorigination\\exceptions\\loanapplicationexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D5E52CCC-35F8-4AD6-8C71-E4DE6B9B475E}|LoanOrigination\\LoanOrigination.csproj|solutionrelative:loanorigination\\exceptions\\loanapplicationexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA85904C-8639-434E-98BA-882C76FD3D61}|LoanTestPrj\\LoanTestPrj.csproj|c:\\users\\pesala.gouthami\\capstoneproject\\loanorigination\\loantestprj\\loanapplytest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CA85904C-8639-434E-98BA-882C76FD3D61}|LoanTestPrj\\LoanTestPrj.csproj|solutionrelative:loantestprj\\loanapplytest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+=======
       "AbsoluteMoniker": "D:0:0:{CA85904C-8639-434E-98BA-882C76FD3D61}|LoanTestPrj\\LoanTestPrj.csproj|c:\\capstoneproject\\loanorigination\\loantestprj\\customerdetailstest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CA85904C-8639-434E-98BA-882C76FD3D61}|LoanTestPrj\\LoanTestPrj.csproj|solutionrelative:loantestprj\\customerdetailstest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -120,6 +128,7 @@
       "RelativeMoniker": "D:0:0:{D5E52CCC-35F8-4AD6-8C71-E4DE6B9B475E}|LoanOrigination\\LoanOrigination.csproj|solutionrelative:loanorigination\\controllers\\loancalculationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
 >>>>>>> main
 >>>>>>> main
+>>>>>>> main
     }
   ],
   "DocumentGroupContainers": [
@@ -147,6 +156,29 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+<<<<<<< HEAD
+              "Title": "LoanApplicationException.cs",
+              "DocumentMoniker": "C:\\Users\\pesala.gouthami\\CapstoneProject\\LoanOrigination\\LoanOrigination\\Exceptions\\LoanApplicationException.cs",
+              "RelativeDocumentMoniker": "LoanOrigination\\Exceptions\\LoanApplicationException.cs",
+              "ToolTip": "C:\\Users\\pesala.gouthami\\CapstoneProject\\LoanOrigination\\LoanOrigination\\Exceptions\\LoanApplicationException.cs",
+              "RelativeToolTip": "LoanOrigination\\Exceptions\\LoanApplicationException.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-27T11:09:38.013Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "LoanApplyTest.cs",
+              "DocumentMoniker": "C:\\Users\\pesala.gouthami\\CapstoneProject\\LoanOrigination\\LoanTestPrj\\LoanApplyTest.cs",
+              "RelativeDocumentMoniker": "LoanTestPrj\\LoanApplyTest.cs",
+              "ToolTip": "C:\\Users\\pesala.gouthami\\CapstoneProject\\LoanOrigination\\LoanTestPrj\\LoanApplyTest.cs",
+              "RelativeToolTip": "LoanTestPrj\\LoanApplyTest.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAYwHoAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-27T09:53:41.263Z",
+=======
               "Title": "CustomerDetailsTest.cs",
               "DocumentMoniker": "C:\\CapstoneProject\\LoanOrigination\\LoanTestPrj\\CustomerDetailsTest.cs",
               "RelativeDocumentMoniker": "LoanTestPrj\\CustomerDetailsTest.cs",
@@ -440,6 +472,7 @@
 >>>>>>> main
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-26T07:26:55.626Z",
+>>>>>>> main
 >>>>>>> main
               "EditorCaption": ""
             },

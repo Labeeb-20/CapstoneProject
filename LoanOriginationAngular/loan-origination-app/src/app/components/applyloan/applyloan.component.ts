@@ -1,5 +1,6 @@
 import { HttpClient } from '@angular/common/http';
 import { Component } from '@angular/core';
+import { ActivatedRoute } from '@angular/router';
 import { ApplyloanService } from 'src/app/services/applyloan/applyloan.service';
 
 @Component({
@@ -22,8 +23,9 @@ export class ApplyloanComponent {
   showLoanForm: boolean = false;
   emi: number = 0;
   link:string="http://localhost:5133/api/loan/calculate-and-add/"
-  constructor(private http:HttpClient,private loanservice:ApplyloanService){
+  constructor(private http:HttpClient,private loanservice:ApplyloanService,private route:ActivatedRoute){
   }
+  
   fetchNetIncome() {
     this.loanservice.getNetIncome(this.customer_id).subscribe(data => {
       this.net_income = data;
@@ -35,12 +37,20 @@ export class ApplyloanComponent {
       this.calculateLoanAmount();
     });
   }
+ 
 
   calculateLoanAmount() {
     this.suggestedLoanAmount = Math.round(this.net_income / 3); 
     this.maxLoanAmount = Math.round(this.net_income / 2); 
     // this.loan_amount = this.suggestedLoanAmount;
     // console.log(this.loan_amount)
+}
+ngOnInit(): void {
+  // Fetch the customerId from the route
+  this.route.params.subscribe((params) => {
+    this.customer_id = +params['customer_id'];
+    this.fetchNetIncome(); // Fetch net income based on customerId
+});
 }
 calculateEMI() {
   const principal = this.loan_amount;
@@ -71,6 +81,7 @@ calculateEMI() {
   cancel() {
     alert('Loan application cancelled');
   }
+  
 }
 
 // fetchNetIncome() {

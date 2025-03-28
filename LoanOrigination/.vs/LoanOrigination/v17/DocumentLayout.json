@@ -4,6 +4,14 @@
   "WorkspaceRootPath": "C:\\CapstoneProject\\LoanOrigination\\",
   "Documents": [
     {
+<<<<<<< HEAD
+      "AbsoluteMoniker": "D:0:0:{D5E52CCC-35F8-4AD6-8C71-E4DE6B9B475E}|LoanOrigination\\LoanOrigination.csproj|c:\\users\\pesala.gouthami\\capstoneproject\\loanorigination\\loanorigination\\exceptions\\loanapplicationexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D5E52CCC-35F8-4AD6-8C71-E4DE6B9B475E}|LoanOrigination\\LoanOrigination.csproj|solutionrelative:loanorigination\\exceptions\\loanapplicationexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA85904C-8639-434E-98BA-882C76FD3D61}|LoanTestPrj\\LoanTestPrj.csproj|c:\\users\\pesala.gouthami\\capstoneproject\\loanorigination\\loantestprj\\loanapplytest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CA85904C-8639-434E-98BA-882C76FD3D61}|LoanTestPrj\\LoanTestPrj.csproj|solutionrelative:loantestprj\\loanapplytest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+=======
       "AbsoluteMoniker": "D:0:0:{CA85904C-8639-434E-98BA-882C76FD3D61}|LoanTestPrj\\LoanTestPrj.csproj|c:\\capstoneproject\\loanorigination\\loantestprj\\customerdetailstest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CA85904C-8639-434E-98BA-882C76FD3D61}|LoanTestPrj\\LoanTestPrj.csproj|solutionrelative:loantestprj\\customerdetailstest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -152,6 +160,7 @@
 >>>>>>> c65fd6c (c3)
 >>>>>>> main
 >>>>>>> main
+>>>>>>> main
     }
   ],
   "DocumentGroupContainers": [
@@ -161,6 +170,9 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
+<<<<<<< HEAD
+          "SelectedChildIndex": 2,
+=======
 <<<<<<< HEAD
           "SelectedChildIndex": 3,
 =======
@@ -172,6 +184,7 @@
 <<<<<<< HEAD
 >>>>>>> main
           "SelectedChildIndex": 0,
+>>>>>>> main
 >>>>>>> main
 >>>>>>> main
           "Children": [
@@ -200,6 +213,34 @@
             },
             {
               "$type": "Bookmark",
+<<<<<<< HEAD
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "LoanApplicationException.cs",
+              "DocumentMoniker": "C:\\Users\\pesala.gouthami\\CapstoneProject\\LoanOrigination\\LoanOrigination\\Exceptions\\LoanApplicationException.cs",
+              "RelativeDocumentMoniker": "LoanOrigination\\Exceptions\\LoanApplicationException.cs",
+              "ToolTip": "C:\\Users\\pesala.gouthami\\CapstoneProject\\LoanOrigination\\LoanOrigination\\Exceptions\\LoanApplicationException.cs",
+              "RelativeToolTip": "LoanOrigination\\Exceptions\\LoanApplicationException.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-27T11:09:38.013Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "LoanApplyTest.cs",
+              "DocumentMoniker": "C:\\Users\\pesala.gouthami\\CapstoneProject\\LoanOrigination\\LoanTestPrj\\LoanApplyTest.cs",
+              "RelativeDocumentMoniker": "LoanTestPrj\\LoanApplyTest.cs",
+              "ToolTip": "C:\\Users\\pesala.gouthami\\CapstoneProject\\LoanOrigination\\LoanTestPrj\\LoanApplyTest.cs",
+              "RelativeToolTip": "LoanTestPrj\\LoanApplyTest.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAYwHoAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-27T09:53:41.263Z",
+=======
               "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
             },
             {
@@ -641,6 +682,7 @@
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-26T05:15:26.509Z",
 >>>>>>> c65fd6c (c3)
+>>>>>>> main
 >>>>>>> main
 >>>>>>> main
 >>>>>>> main
