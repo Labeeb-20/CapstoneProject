@@ -721,6 +721,9 @@
         }
       },
 <<<<<<< HEAD
+      "Moq/4.20.70": {
+=======
+<<<<<<< HEAD
       "Moq/4.20.72": {
 =======
 <<<<<<< HEAD
@@ -730,6 +733,7 @@
       "Moq/4.20.72": {
 =======
       "Moq/4.20.70": {
+>>>>>>> main
 >>>>>>> main
 >>>>>>> main
 >>>>>>> main
@@ -743,6 +747,8 @@
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
 >>>>>>> main
 >>>>>>> main
           "lib/net6.0/Moq.dll": {}
@@ -754,6 +760,7 @@
 <<<<<<< HEAD
 =======
 =======
+>>>>>>> main
           "lib/net6.0/Moq.dll": {
             "related": ".xml"
           }
@@ -762,6 +769,9 @@
           "lib/net6.0/Moq.dll": {
             "related": ".xml"
           }
+<<<<<<< HEAD
+=======
+>>>>>>> main
 >>>>>>> main
         }
       },
@@ -778,6 +788,9 @@
           "lib/net8.0/Moq.EntityFrameworkCore.dll": {}
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
+=======
+>>>>>>> main
 >>>>>>> main
 >>>>>>> main
 >>>>>>> main
@@ -3584,6 +3597,8 @@
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
 >>>>>>> main
 >>>>>>> main
     "Moq/4.20.72": {
@@ -3595,10 +3610,14 @@
 <<<<<<< HEAD
 =======
 =======
+>>>>>>> main
     "Moq/4.20.70": {
       "sha512": "4rNnAwdpXJBuxqrOCzCyICXHSImOTRktCgCWXWykuF1qwoIsVvEnR7PjbMk/eLOxWvhmj5Kwt+kDV3RGUYcNwg==",
       "type": "package",
       "path": "moq/4.20.70",
+<<<<<<< HEAD
+=======
+>>>>>>> main
 >>>>>>> main
 >>>>>>> main
 >>>>>>> main
@@ -3607,6 +3626,8 @@
         ".signature.p7s",
         "icon.png",
         "lib/net462/Moq.dll",
+<<<<<<< HEAD
+=======
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -3623,6 +3644,7 @@
 <<<<<<< HEAD
 =======
 =======
+>>>>>>> main
         "lib/net462/Moq.xml",
         "lib/net6.0/Moq.dll",
         "lib/net6.0/Moq.xml",
@@ -3631,6 +3653,9 @@
         "lib/netstandard2.1/Moq.dll",
         "lib/netstandard2.1/Moq.xml",
         "moq.4.20.70.nupkg.sha512",
+<<<<<<< HEAD
+=======
+>>>>>>> main
 >>>>>>> main
 >>>>>>> main
 >>>>>>> main
@@ -3644,6 +3669,9 @@
 =======
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
+=======
+>>>>>>> main
 >>>>>>> main
     "Moq.EntityFrameworkCore/8.0.1.7": {
       "sha512": "flTvxLqQQPNFVk6R0We1wV7f203E0N7tQYkEb80XnXRfM6Zs1PF9KGzib8WrMykrBMmeOxLHg9NnWGUSb84t7g==",
@@ -3660,6 +3688,9 @@
     },
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
+=======
+>>>>>>> main
 >>>>>>> main
 >>>>>>> main
 >>>>>>> main
@@ -7289,6 +7320,9 @@
       "LoanOrigination >= 1.0.0",
       "Microsoft.NET.Test.Sdk >= 17.8.0",
 <<<<<<< HEAD
+      "Moq.EntityFrameworkCore >= 8.0.1.7",
+=======
+<<<<<<< HEAD
       "Moq >= 4.20.72",
 =======
 <<<<<<< HEAD
@@ -7299,6 +7333,7 @@
       "Moq >= 4.20.72",
 =======
       "Moq.EntityFrameworkCore >= 8.0.1.7",
+>>>>>>> main
 >>>>>>> main
 >>>>>>> main
 >>>>>>> main
@@ -7429,6 +7464,12 @@
             "version": "[17.8.0, )"
           },
 <<<<<<< HEAD
+          "Moq.EntityFrameworkCore": {
+            "target": "Package",
+            "version": "[8.0.1.7, )"
+          },
+=======
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
@@ -7453,6 +7494,7 @@
 >>>>>>> main
 >>>>>>> main
           },
+>>>>>>> main
 >>>>>>> main
           "coverlet.collector": {
             "target": "Package",

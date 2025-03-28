@@ -42,7 +42,9 @@ const routes: Routes = [
     LoanhistoryComponent,
     ApplyloanComponent,
     DashboadComponent,
-    ContentComponent
+    ContentComponent,
+    HeaderComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,

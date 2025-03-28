@@ -37,6 +37,27 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "LoanOrigination.Controllers.AddCustomerController",
+    "Method": "Put",
+    "RelativePath": "api/AddCustomer/UpdateCustomerById/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "customerDetail",
+        "Type": "LoanOrigination.CustomerDetails.Models.CustomerDetail",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "LoanOrigination.Controllers.FindCustomerController",
     "Method": "GetCustomer",
     "RelativePath": "api/FindCustomer/customers/search/{firstName}/{lastName}/{dateOfBirth}",

@@ -11,6 +11,9 @@
           "LoanOrigination": "1.0.0",
           "Microsoft.NET.Test.Sdk": "17.8.0",
 <<<<<<< HEAD
+          "Moq.EntityFrameworkCore": "8.0.1.7",
+=======
+<<<<<<< HEAD
           "Moq": "4.20.72",
 =======
 <<<<<<< HEAD
@@ -21,6 +24,7 @@
           "Moq": "4.20.72",
 =======
           "Moq.EntityFrameworkCore": "8.0.1.7",
+>>>>>>> main
 >>>>>>> main
 >>>>>>> main
 >>>>>>> main
@@ -524,6 +528,9 @@
         }
       },
 <<<<<<< HEAD
+      "Moq/4.20.70": {
+=======
+<<<<<<< HEAD
       "Moq/4.20.72": {
 =======
 <<<<<<< HEAD
@@ -536,11 +543,16 @@
 >>>>>>> main
 >>>>>>> main
 >>>>>>> main
+>>>>>>> main
         "dependencies": {
           "Castle.Core": "5.1.1"
         },
         "runtime": {
           "lib/net6.0/Moq.dll": {
+<<<<<<< HEAD
+            "assemblyVersion": "4.20.70.0",
+            "fileVersion": "4.20.70.0"
+=======
 <<<<<<< HEAD
             "assemblyVersion": "4.20.72.0",
             "fileVersion": "4.20.72.0"
@@ -556,6 +568,7 @@
             "assemblyVersion": "4.20.70.0",
             "fileVersion": "4.20.70.0"
 >>>>>>> main
+>>>>>>> main
           }
         }
       },
@@ -563,9 +576,13 @@
         "dependencies": {
           "Microsoft.EntityFrameworkCore": "8.0.14",
 <<<<<<< HEAD
+          "Moq": "4.20.70"
+=======
+<<<<<<< HEAD
           "Moq": "4.20.72"
 =======
           "Moq": "4.20.70"
+>>>>>>> main
 >>>>>>> main
         },
         "runtime": {
@@ -574,6 +591,9 @@
             "fileVersion": "5.0.2.0"
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
+=======
+>>>>>>> main
 >>>>>>> main
 >>>>>>> main
 >>>>>>> main
@@ -1649,6 +1669,8 @@
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
 >>>>>>> main
 >>>>>>> main
     "Moq/4.20.72": {
@@ -1662,12 +1684,16 @@
 <<<<<<< HEAD
 =======
 =======
+>>>>>>> main
     "Moq/4.20.70": {
       "type": "package",
       "serviceable": true,
       "sha512": "sha512-4rNnAwdpXJBuxqrOCzCyICXHSImOTRktCgCWXWykuF1qwoIsVvEnR7PjbMk/eLOxWvhmj5Kwt+kDV3RGUYcNwg==",
       "path": "moq/4.20.70",
       "hashPath": "moq.4.20.70.nupkg.sha512"
+<<<<<<< HEAD
+=======
+>>>>>>> main
 >>>>>>> main
     },
     "Moq.EntityFrameworkCore/8.0.1.7": {
@@ -1678,6 +1704,9 @@
       "hashPath": "moq.entityframeworkcore.8.0.1.7.nupkg.sha512"
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
+=======
+>>>>>>> main
 >>>>>>> main
 >>>>>>> main
 >>>>>>> main

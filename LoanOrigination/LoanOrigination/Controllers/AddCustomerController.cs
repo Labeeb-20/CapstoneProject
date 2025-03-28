@@ -31,5 +31,20 @@ namespace LoanOrigination.Controllers
             }
 
         }
+        [HttpPut]
+        [Route("UpdateCustomerById/{id}")]
+        public IActionResult Put(int id, [FromBody] CustomerDetail customerDetail)
+        {
+            try
+            {
+                dal.UpdateCustomerDetails(customerDetail);
+           
+                return Ok(new { msg = "Customer Details  updated" });
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(new { msg = ex.Message });
+            }
+        }
     }
 }

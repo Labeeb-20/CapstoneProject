@@ -35,8 +35,8 @@
 
             <div class="row">
                 <div class="col-md-6 form-group">
-                    <label for="date_of_Birth">Date of Birth (DD/MM/YYYY)</label>
-                    <input #dob="ngModel" type="date" class="form-control" [(ngModel)]="customerdetails.date_of_Birth"
+                    <label for="date_of_Birth">Date of Birth (YYYY-MM-DD)</label>
+                    <input #dob="ngModel" type="string" class="form-control" [(ngModel)]="customerdetails.date_of_Birth"
                         id="date_of_Birth" name="date_of_Birth" required>
                     <div *ngIf="dob.invalid && (dob.dirty || dob.touched)" style="color: #ff6600;font-style: italic;
         font-weight: bold;font-size: 12px;">
@@ -122,7 +122,7 @@
                 </div>
                 <div class="col-md-6 form-group">
                     <label for="last_salary_date">Last Salary Date (YYYY-MM-DD):</label>
-                    <input #saldate="ngModel" type="date" class="form-control"
+                    <input #saldate="ngModel" type="string" class="form-control"
                         [(ngModel)]="customerdetails.last_salary_date" id="last_salary_date" name="last_salary_date"
                         required>
                     <div *ngIf="saldate.invalid && (saldate.dirty || saldate.touched)" style="color: #ff6600;font-style: italic;
