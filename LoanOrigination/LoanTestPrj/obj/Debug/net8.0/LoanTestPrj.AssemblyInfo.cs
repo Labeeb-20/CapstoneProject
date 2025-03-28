@@ -15,6 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
 <<<<<<< HEAD
+<<<<<<< HEAD
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+90b09b3e59c08fa2c43cf38fd7df30eecf8c9c49")]
 =======
 <<<<<<< HEAD
@@ -27,6 +28,9 @@ using System.Reflection;
 >>>>>>> main
 >>>>>>> main
 >>>>>>> main
+=======
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+25b2e6baae7b1808aa0fcff9c3835a48e1ae8e7a")]
+>>>>>>> dfd21ad (c2)
 [assembly: System.Reflection.AssemblyProductAttribute("LoanTestPrj")]
 [assembly: System.Reflection.AssemblyTitleAttribute("LoanTestPrj")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
