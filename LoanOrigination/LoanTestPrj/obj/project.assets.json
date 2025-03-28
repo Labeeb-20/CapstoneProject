@@ -721,6 +721,12 @@
         }
       },
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+      "Moq/4.20.70": {
+=======
+>>>>>>> main
+<<<<<<< HEAD
       "Moq/4.20.72": {
 =======
 <<<<<<< HEAD
@@ -733,12 +739,22 @@
 >>>>>>> main
 >>>>>>> main
 >>>>>>> main
+<<<<<<< HEAD
+=======
+      "Moq/4.20.70": {
+>>>>>>> dfd21ad (c2)
+=======
+>>>>>>> main
+>>>>>>> main
         "type": "package",
         "dependencies": {
           "Castle.Core": "5.1.1"
         },
         "compile": {
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -754,6 +770,12 @@
 <<<<<<< HEAD
 =======
 =======
+<<<<<<< HEAD
+=======
+>>>>>>> dfd21ad (c2)
+=======
+>>>>>>> main
+>>>>>>> main
           "lib/net6.0/Moq.dll": {
             "related": ".xml"
           }
@@ -762,7 +784,15 @@
           "lib/net6.0/Moq.dll": {
             "related": ".xml"
           }
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
 >>>>>>> main
+>>>>>>> main
+>>>>>>> main
+=======
+>>>>>>> dfd21ad (c2)
         }
       },
       "Moq.EntityFrameworkCore/8.0.1.7": {
@@ -777,10 +807,16 @@
         "runtime": {
           "lib/net8.0/Moq.EntityFrameworkCore.dll": {}
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
 =======
 >>>>>>> main
 >>>>>>> main
 >>>>>>> main
+>>>>>>> main
+=======
+>>>>>>> dfd21ad (c2)
         }
       },
       "NETStandard.Library/1.6.1": {
@@ -3580,6 +3616,9 @@
       ]
     },
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -3595,18 +3634,35 @@
 <<<<<<< HEAD
 =======
 =======
+<<<<<<< HEAD
+=======
+>>>>>>> dfd21ad (c2)
+=======
+>>>>>>> main
+>>>>>>> main
     "Moq/4.20.70": {
       "sha512": "4rNnAwdpXJBuxqrOCzCyICXHSImOTRktCgCWXWykuF1qwoIsVvEnR7PjbMk/eLOxWvhmj5Kwt+kDV3RGUYcNwg==",
       "type": "package",
       "path": "moq/4.20.70",
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
 >>>>>>> main
 >>>>>>> main
 >>>>>>> main
+>>>>>>> main
+>>>>>>> main
+=======
+>>>>>>> dfd21ad (c2)
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "icon.png",
         "lib/net462/Moq.dll",
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -3623,6 +3679,12 @@
 <<<<<<< HEAD
 =======
 =======
+<<<<<<< HEAD
+=======
+>>>>>>> dfd21ad (c2)
+=======
+>>>>>>> main
+>>>>>>> main
         "lib/net462/Moq.xml",
         "lib/net6.0/Moq.dll",
         "lib/net6.0/Moq.xml",
@@ -3631,20 +3693,34 @@
         "lib/netstandard2.1/Moq.dll",
         "lib/netstandard2.1/Moq.xml",
         "moq.4.20.70.nupkg.sha512",
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
 >>>>>>> main
 >>>>>>> main
 >>>>>>> main
+>>>>>>> main
+>>>>>>> main
+=======
+>>>>>>> dfd21ad (c2)
         "moq.nuspec",
         "readme.md"
       ]
     },
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
 >>>>>>> main
+>>>>>>> main
+=======
+>>>>>>> dfd21ad (c2)
     "Moq.EntityFrameworkCore/8.0.1.7": {
       "sha512": "flTvxLqQQPNFVk6R0We1wV7f203E0N7tQYkEb80XnXRfM6Zs1PF9KGzib8WrMykrBMmeOxLHg9NnWGUSb84t7g==",
       "type": "package",
@@ -3659,10 +3735,16 @@
       ]
     },
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
 =======
 >>>>>>> main
 >>>>>>> main
 >>>>>>> main
+>>>>>>> main
+=======
+>>>>>>> dfd21ad (c2)
     "NETStandard.Library/1.6.1": {
       "sha512": "WcSp3+vP+yHNgS8EV5J7pZ9IRpeDuARBPN28by8zqff1wJQXm26PVU8L3/fYLBJVU7BtDyqNVWq2KlCVvSSR4A==",
       "type": "package",
@@ -7289,6 +7371,12 @@
       "LoanOrigination >= 1.0.0",
       "Microsoft.NET.Test.Sdk >= 17.8.0",
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+      "Moq.EntityFrameworkCore >= 8.0.1.7",
+=======
+>>>>>>> main
+<<<<<<< HEAD
       "Moq >= 4.20.72",
 =======
 <<<<<<< HEAD
@@ -7300,6 +7388,13 @@
 =======
       "Moq.EntityFrameworkCore >= 8.0.1.7",
 >>>>>>> main
+>>>>>>> main
+>>>>>>> main
+<<<<<<< HEAD
+=======
+      "Moq.EntityFrameworkCore >= 8.0.1.7",
+>>>>>>> dfd21ad (c2)
+=======
 >>>>>>> main
 >>>>>>> main
       "coverlet.collector >= 6.0.0",
@@ -7429,6 +7524,15 @@
             "version": "[17.8.0, )"
           },
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+          "Moq.EntityFrameworkCore": {
+            "target": "Package",
+            "version": "[8.0.1.7, )"
+          },
+=======
+>>>>>>> main
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> main
@@ -7453,6 +7557,16 @@
 >>>>>>> main
 >>>>>>> main
           },
+>>>>>>> main
+<<<<<<< HEAD
+=======
+          "Moq.EntityFrameworkCore": {
+            "target": "Package",
+            "version": "[8.0.1.7, )"
+          },
+>>>>>>> dfd21ad (c2)
+=======
+>>>>>>> main
 >>>>>>> main
           "coverlet.collector": {
             "target": "Package",

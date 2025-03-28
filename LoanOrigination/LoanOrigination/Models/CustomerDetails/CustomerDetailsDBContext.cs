@@ -4,7 +4,7 @@ namespace LoanOrigination.CustomerDetails.Models
 {
     public class CustomerDetailsDBContext :DbContext
     {
-        public CustomerDetailsDBContext(DbContextOptions opts) : base(opts) 
+        public CustomerDetailsDBContext(DbContextOptions<CustomerDetailsDBContext> opts) : base(opts) 
         {
             
         }

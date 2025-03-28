@@ -37,10 +37,17 @@
     "ReturnTypes": []
   },
   {
+<<<<<<< HEAD
     "ContainingType": "LoanOrigination.Controllers.FindCustomerController",
     "Method": "GetCustomerById",
     "RelativePath": "api/FindCustomer/customer/getCustomerById/{id}",
     "HttpMethod": "GET",
+=======
+    "ContainingType": "LoanOrigination.Controllers.AddCustomerController",
+    "Method": "Put",
+    "RelativePath": "api/AddCustomer/UpdateCustomerById/{id}",
+    "HttpMethod": "PUT",
+>>>>>>> main
     "IsController": true,
     "Order": 0,
     "Parameters": [
@@ -48,6 +55,14 @@
         "Name": "id",
         "Type": "System.Int32",
         "IsRequired": true
+<<<<<<< HEAD
+=======
+      },
+      {
+        "Name": "customerDetail",
+        "Type": "LoanOrigination.CustomerDetails.Models.CustomerDetail",
+        "IsRequired": true
+>>>>>>> main
       }
     ],
     "ReturnTypes": []
