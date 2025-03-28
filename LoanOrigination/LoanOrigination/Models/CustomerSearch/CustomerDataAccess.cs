@@ -35,5 +35,29 @@ namespace LoanOrigination.Models.CustomerSearch
                 throw new Exception("Error " + ex.Message);
             }
         }
+
+        public Customer GetCustomerById(int id)
+        {
+            try
+            {
+                var record = dbContext.Customers.Find(id);
+                if (record != null)
+                {
+                    return record;
+                }
+                else
+                {
+                    throw new Exception("Record not found");
+                }
+            }
+            catch (NpgsqlException ex)
+            {
+                throw new Exception("Error in DB" + ex.Message);
+            }
+            catch (Exception ex)
+            {
+                throw new Exception("Error "+ex.Message);
+            }
+        }
     }
 }

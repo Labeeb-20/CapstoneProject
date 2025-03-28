@@ -66,6 +66,8 @@
         }
       }
     },
+<<<<<<< HEAD
+=======
     "/api/AddCustomer/UpdateCustomerById/{id}": {
       "put": {
         "tags": [
@@ -108,6 +110,7 @@
         }
       }
     },
+>>>>>>> main
     "/api/FindCustomer/customers/search/{firstName}/{lastName}/{dateOfBirth}": {
       "get": {
         "tags": [
@@ -147,6 +150,32 @@
         }
       }
     },
+<<<<<<< HEAD
+    "/api/FindCustomer/customer/getCustomerById/{id}": {
+      "get": {
+        "tags": [
+          "FindCustomer"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+=======
+>>>>>>> main
     "/api/loan/calculate-and-add/{customerId}": {
       "post": {
         "tags": [
