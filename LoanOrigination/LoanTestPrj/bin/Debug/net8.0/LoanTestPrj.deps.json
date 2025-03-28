@@ -11,8 +11,11 @@
           "LoanOrigination": "1.0.0",
           "Microsoft.NET.Test.Sdk": "17.8.0",
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
           "Moq.EntityFrameworkCore": "8.0.1.7",
 =======
+>>>>>>> main
 <<<<<<< HEAD
           "Moq": "4.20.72",
 =======
@@ -26,6 +29,12 @@
           "Moq.EntityFrameworkCore": "8.0.1.7",
 >>>>>>> main
 >>>>>>> main
+>>>>>>> main
+<<<<<<< HEAD
+=======
+          "Moq.EntityFrameworkCore": "8.0.1.7",
+>>>>>>> dfd21ad (c2)
+=======
 >>>>>>> main
 >>>>>>> main
           "coverlet.collector": "6.0.0",
@@ -528,8 +537,11 @@
         }
       },
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
       "Moq/4.20.70": {
 =======
+>>>>>>> main
 <<<<<<< HEAD
       "Moq/4.20.72": {
 =======
@@ -542,6 +554,12 @@
       "Moq/4.20.70": {
 >>>>>>> main
 >>>>>>> main
+>>>>>>> main
+<<<<<<< HEAD
+=======
+      "Moq/4.20.70": {
+>>>>>>> dfd21ad (c2)
+=======
 >>>>>>> main
 >>>>>>> main
         "dependencies": {
@@ -550,9 +568,12 @@
         "runtime": {
           "lib/net6.0/Moq.dll": {
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
             "assemblyVersion": "4.20.70.0",
             "fileVersion": "4.20.70.0"
 =======
+>>>>>>> main
 <<<<<<< HEAD
             "assemblyVersion": "4.20.72.0",
             "fileVersion": "4.20.72.0"
@@ -567,6 +588,13 @@
 =======
             "assemblyVersion": "4.20.70.0",
             "fileVersion": "4.20.70.0"
+>>>>>>> main
+<<<<<<< HEAD
+=======
+            "assemblyVersion": "4.20.70.0",
+            "fileVersion": "4.20.70.0"
+>>>>>>> dfd21ad (c2)
+=======
 >>>>>>> main
 >>>>>>> main
           }
@@ -576,12 +604,21 @@
         "dependencies": {
           "Microsoft.EntityFrameworkCore": "8.0.14",
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
           "Moq": "4.20.70"
 =======
+>>>>>>> main
 <<<<<<< HEAD
           "Moq": "4.20.72"
 =======
           "Moq": "4.20.70"
+>>>>>>> main
+<<<<<<< HEAD
+=======
+          "Moq": "4.20.70"
+>>>>>>> dfd21ad (c2)
+=======
 >>>>>>> main
 >>>>>>> main
         },
@@ -590,6 +627,7 @@
             "assemblyVersion": "5.0.0.0",
             "fileVersion": "5.0.2.0"
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -597,6 +635,8 @@
 >>>>>>> main
 >>>>>>> main
 >>>>>>> main
+=======
+>>>>>>> dfd21ad (c2)
           }
         }
       },
@@ -1665,6 +1705,7 @@
       "hashPath": "microsoft.win32.primitives.4.3.0.nupkg.sha512"
     },
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -1684,6 +1725,11 @@
 <<<<<<< HEAD
 =======
 =======
+<<<<<<< HEAD
+=======
+>>>>>>> dfd21ad (c2)
+=======
+>>>>>>> main
 >>>>>>> main
     "Moq/4.20.70": {
       "type": "package",
@@ -1692,9 +1738,14 @@
       "path": "moq/4.20.70",
       "hashPath": "moq.4.20.70.nupkg.sha512"
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
 =======
 >>>>>>> main
 >>>>>>> main
+>>>>>>> main
+=======
+>>>>>>> dfd21ad (c2)
     },
     "Moq.EntityFrameworkCore/8.0.1.7": {
       "type": "package",
@@ -1703,6 +1754,7 @@
       "path": "moq.entityframeworkcore/8.0.1.7",
       "hashPath": "moq.entityframeworkcore.8.0.1.7.nupkg.sha512"
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -1710,6 +1762,8 @@
 >>>>>>> main
 >>>>>>> main
 >>>>>>> main
+=======
+>>>>>>> dfd21ad (c2)
     },
     "NETStandard.Library/1.6.1": {
       "type": "package",

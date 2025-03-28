@@ -13,8 +13,11 @@
     <PackageReference Include="coverlet.collector" Version="6.0.0" />
     <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.8.0" />
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
     <PackageReference Include="Moq.EntityFrameworkCore" Version="8.0.1.7" />
 =======
+>>>>>>> main
 <<<<<<< HEAD
     <PackageReference Include="Moq" Version="4.20.72" />
 =======
@@ -28,6 +31,12 @@
     <PackageReference Include="Moq.EntityFrameworkCore" Version="8.0.1.7" />
 >>>>>>> main
 >>>>>>> main
+>>>>>>> main
+<<<<<<< HEAD
+=======
+    <PackageReference Include="Moq.EntityFrameworkCore" Version="8.0.1.7" />
+>>>>>>> dfd21ad (c2)
+=======
 >>>>>>> main
 >>>>>>> main
     <PackageReference Include="xunit" Version="2.5.3" />

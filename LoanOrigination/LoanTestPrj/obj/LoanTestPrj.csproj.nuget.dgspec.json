@@ -264,11 +264,14 @@
               "version": "[17.8.0, )"
             },
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
             "Moq.EntityFrameworkCore": {
               "target": "Package",
               "version": "[8.0.1.7, )"
             },
 =======
+>>>>>>> main
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -294,6 +297,15 @@
 >>>>>>> main
 >>>>>>> main
             },
+>>>>>>> main
+<<<<<<< HEAD
+=======
+            "Moq.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.1.7, )"
+            },
+>>>>>>> dfd21ad (c2)
+=======
 >>>>>>> main
 >>>>>>> main
             "coverlet.collector": {
