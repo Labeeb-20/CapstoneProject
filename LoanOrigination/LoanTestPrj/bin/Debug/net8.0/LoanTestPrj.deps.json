@@ -12,6 +12,11 @@
           "Microsoft.NET.Test.Sdk": "17.8.0",
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+          "Moq.EntityFrameworkCore": "8.0.1.7",
+=======
+>>>>>>> main
+<<<<<<< HEAD
           "Moq": "4.20.72",
 =======
 <<<<<<< HEAD
@@ -25,9 +30,13 @@
 >>>>>>> main
 >>>>>>> main
 >>>>>>> main
+<<<<<<< HEAD
 =======
           "Moq.EntityFrameworkCore": "8.0.1.7",
 >>>>>>> dfd21ad (c2)
+=======
+>>>>>>> main
+>>>>>>> main
           "coverlet.collector": "6.0.0",
           "xunit": "2.5.3",
           "xunit.runner.visualstudio": "2.5.3"
@@ -529,6 +538,11 @@
       },
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+      "Moq/4.20.70": {
+=======
+>>>>>>> main
+<<<<<<< HEAD
       "Moq/4.20.72": {
 =======
 <<<<<<< HEAD
@@ -541,9 +555,13 @@
 >>>>>>> main
 >>>>>>> main
 >>>>>>> main
+<<<<<<< HEAD
 =======
       "Moq/4.20.70": {
 >>>>>>> dfd21ad (c2)
+=======
+>>>>>>> main
+>>>>>>> main
         "dependencies": {
           "Castle.Core": "5.1.1"
         },
@@ -551,6 +569,12 @@
           "lib/net6.0/Moq.dll": {
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+            "assemblyVersion": "4.20.70.0",
+            "fileVersion": "4.20.70.0"
+=======
+>>>>>>> main
+<<<<<<< HEAD
             "assemblyVersion": "4.20.72.0",
             "fileVersion": "4.20.72.0"
 =======
@@ -565,10 +589,14 @@
             "assemblyVersion": "4.20.70.0",
             "fileVersion": "4.20.70.0"
 >>>>>>> main
+<<<<<<< HEAD
 =======
             "assemblyVersion": "4.20.70.0",
             "fileVersion": "4.20.70.0"
 >>>>>>> dfd21ad (c2)
+=======
+>>>>>>> main
+>>>>>>> main
           }
         }
       },
@@ -577,13 +605,22 @@
           "Microsoft.EntityFrameworkCore": "8.0.14",
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+          "Moq": "4.20.70"
+=======
+>>>>>>> main
+<<<<<<< HEAD
           "Moq": "4.20.72"
 =======
           "Moq": "4.20.70"
 >>>>>>> main
+<<<<<<< HEAD
 =======
           "Moq": "4.20.70"
 >>>>>>> dfd21ad (c2)
+=======
+>>>>>>> main
+>>>>>>> main
         },
         "runtime": {
           "lib/net8.0/Moq.EntityFrameworkCore.dll": {
@@ -592,6 +629,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
+=======
+>>>>>>> main
 >>>>>>> main
 >>>>>>> main
 >>>>>>> main
@@ -1670,6 +1710,8 @@
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
 >>>>>>> main
 >>>>>>> main
     "Moq/4.20.72": {
@@ -1683,8 +1725,12 @@
 <<<<<<< HEAD
 =======
 =======
+<<<<<<< HEAD
 =======
 >>>>>>> dfd21ad (c2)
+=======
+>>>>>>> main
+>>>>>>> main
     "Moq/4.20.70": {
       "type": "package",
       "serviceable": true,
@@ -1692,6 +1738,11 @@
       "path": "moq/4.20.70",
       "hashPath": "moq.4.20.70.nupkg.sha512"
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> main
+>>>>>>> main
 >>>>>>> main
 =======
 >>>>>>> dfd21ad (c2)
@@ -1705,6 +1756,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
+=======
+>>>>>>> main
 >>>>>>> main
 >>>>>>> main
 >>>>>>> main
