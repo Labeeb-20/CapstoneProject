@@ -1,4 +1,5 @@
-﻿using LoanOrigination.Models;
+﻿using LoanOrigination.Exceptions;
+using LoanOrigination.Models;
 using Microsoft.AspNetCore.Mvc;
 using System;
 
@@ -21,7 +22,7 @@ namespace LoanOrigination.Controllers
         {
             if (customerId <= 0 )
             {
-                return BadRequest(new { error = "Invalid Customer ID or Loan Request data." });
+                return BadRequest(new { error = "Invalid Customer ID" });
             }
 
             // Step 1: Fetch Net Income
@@ -59,7 +60,7 @@ namespace LoanOrigination.Controllers
                     maximumLoanAmount
                 });
             }
-            catch (Exception ex)
+            catch (LoanApplicationException ex)
             {
                 return StatusCode(500, new { error = ex.Message });
             }
@@ -70,7 +71,7 @@ namespace LoanOrigination.Controllers
         {
             if(customerId <= 0)
             {
-                return BadRequest(new { error = "Invalid Customer ID or Loan Request data." });
+                return BadRequest(new { error = "Invalid Customer ID" });
             }
             var netIncome = _dataAccess.GetNetIncomeByCustomerId(customerId);
             return Ok(netIncome);
